@@ -1,0 +1,21 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB222__RLOOP__GIMBAL_INTERFACE\PROJECT\LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB|ReportField=Title~LPCB222R0__BOM For Project [LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB] (PCB Document : LPCB222R0.PcbDoc)|ReportField=TotalQuantity~20|ReportField=ReportTime~7:37:48 PM|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 7:37:48 PM|ReportField=OutputName~LPCB222R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~7:37:30 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB222__RLOOP__GIMBAL_INTERFACE\SCHEMATICS\LPCB222 - OVERVIEW.SchDoc|ReportField=DocumentName~LPCB222 - OVERVIEW.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB222|ReportField=Lockie__PCB_ASSEMBLY~Gimbal Interface|ReportField=Lockie__PCB_DESCRIPTION~Gimbal Interface|ReportField=Lockie__PCB_SUB_ASSEMBLY~Overview|ReportField=ModifiedDate~2016-07-18|ReportField=Organization~|ReportField=ProjectName~LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~3|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB222__RLOOP__GIMBAL_INTERFACE\PROJECT\LPCB222__RLOOP__GIMBAL_INTERFACE.PrjPCB|ReportField=PCBDataSourceFileName~LPCB222R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB222__RLOOP__GIMBAL_INTERFACE\PCB\LPCB222R0.PcbDoc
+C1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C4|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C7|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C9|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CN1|LCN057|Header, 2.54mm (0.1in), 3 Pins x 1 Row (40 Per Row In Strip)|1|Top
+CN2|LCN305|Connector, Male Header, 8 Way|1|Top
+CN3||Header, 2.54mm (0.1in), 4 Pins x 1 Row (40 Per Row In Strip)|1|Top
+CT1|LCA039|Capacitor, Tantalum, 22uF, 16V, 20%, SMD B-Case|1|Top
+D1|LIC345|Diode, Small Signal, SMD SOD-323F|1|Top
+IC1|LIC588|IC, 4-20mA Current Loop Transmitter, SMD SOIC8 [LIC588]|1|Top
+IC2|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Top
+IC3|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16 [LIC165]|1|Top
+Q1|LIC005|Transistor, NPN, General Purpose, SOT-23 [LIC005]|1|Top
+R1|LRE212|Resistor, Ceramic Chip, 121K, 0.1W, SMD 0603 [LRE212]|1|Top
+R2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
