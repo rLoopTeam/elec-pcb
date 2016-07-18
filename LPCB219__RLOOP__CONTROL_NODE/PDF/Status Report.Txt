@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:19:56 AM On 2016-07-18
+
+Output: LPCB219R0__BOM
+Type  : BOM
+From  : Project [LPCB219__RLOOP__CONTROL_NODE.PrjPCB]
+   Generated File[LPCB219R0__BOM.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:20:12 AM On 2016-07-18

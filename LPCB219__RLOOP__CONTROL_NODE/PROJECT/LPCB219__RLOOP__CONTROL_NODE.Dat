@@ -1,0 +1,53 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB219__RLOOP__CONTROL_NODE.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB219__RLOOP__CONTROL_NODE\PROJECT\LPCB219__RLOOP__CONTROL_NODE.PrjPCB|ReportField=Title~LPCB219R0__BOM For Project [LPCB219__RLOOP__CONTROL_NODE.PrjPCB] (PCB Document : LPCB219R0.PcbDoc)|ReportField=TotalQuantity~52|ReportField=ReportTime~9:20:01 AM|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 9:20:01 AM|ReportField=OutputName~LPCB219R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~9:19:57 AM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB219__RLOOP__CONTROL_NODE\SCHEMATICS\LPCB219 - OVERVIEW.SchDoc|ReportField=DocumentName~LPCB219 - OVERVIEW.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB219|ReportField=Lockie__PCB_ASSEMBLY~Main|ReportField=Lockie__PCB_DESCRIPTION~Control Node|ReportField=Lockie__PCB_SUB_ASSEMBLY~Overview|ReportField=ModifiedDate~2016-07-18|ReportField=Organization~|ReportField=ProjectName~LPCB219__RLOOP__CONTROL_NODE.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~7|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB219__RLOOP__CONTROL_NODE.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB219__RLOOP__CONTROL_NODE\PROJECT\LPCB219__RLOOP__CONTROL_NODE.PrjPCB|ReportField=PCBDataSourceFileName~LPCB219R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB219__RLOOP__CONTROL_NODE\PCB\LPCB219R0.PcbDoc
+C1_L1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C1_L2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C1_L3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C8|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C9|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C10|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C11|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C12|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C13|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CN1|LCN305|Connector, Male Header, 8 Way|1|Top
+CN2_L1|LCN305|Connector, Male Header, 8 Way|1|Top
+CN2_L2|LCN305|Connector, Male Header, 8 Way|1|Top
+CN2_L3|LCN305|Connector, Male Header, 8 Way|1|Top
+CN3|LCN305|Connector, Male Header, 8 Way|1|Top
+CN5|LCN305|Connector, Male Header, 8 Way|1|Top
+CN6|LCN305|Connector, Male Header, 8 Way|1|Top
+CN7|LCN305|Connector, Male Header, 8 Way|1|Top
+CN8|LCN305|Connector, Male Header, 8 Way|1|Top
+IC1_L1|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC1_L2|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC1_L3|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC2|LIC541|IC, SPI UART Interface, SMD SOIC28 [LIC541]|1|Top
+IC3|LIC571|IC, I2C Line Driver [LIC571]|1|Top
+IC4|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16|1|Top
+IC5|LIC508|IC, Oscillator Module, 1.8432MHz, 3.3V, SMD [LIC508]|1|Top
+IC6|LIC160|IC, Hex Inveter, Schmitt Trigger, SMD [LIC160]|1|Top
+R1|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|1|Top
+R2|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|1|Top
+R3|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|1|Top
+R4|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|1|Top
+R5_L1|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R5_L2|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R5_L3|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R6_L1|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R6_L2|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R6_L3|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R8|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R9|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R10|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R11|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R12|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R13|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R14|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R15|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R16|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
