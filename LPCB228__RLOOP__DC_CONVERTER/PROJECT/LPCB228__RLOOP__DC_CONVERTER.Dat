@@ -1,0 +1,46 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB228__RLOOP__DC_CONVERTER.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB228__RLOOP__DC_CONVERTER\PROJECT\LPCB228__RLOOP__DC_CONVERTER.PrjPCB|ReportField=Title~LPCB228R0__BOM For Project [LPCB228__RLOOP__DC_CONVERTER.PrjPCB] (PCB Document : LPCB228R0.PcbDoc)|ReportField=TotalQuantity~45|ReportField=ReportTime~5:59:35 PM|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 5:59:35 PM|ReportField=OutputName~LPCB228R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~5:58:44 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB228__RLOOP__DC_CONVERTER\SCHEMATICS\LPCB228 - TOP.SchDoc|ReportField=DocumentName~LPCB228 - TOP.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB228|ReportField=Lockie__PCB_ASSEMBLY~Main|ReportField=Lockie__PCB_DESCRIPTION~DC/DC Converter|ReportField=Lockie__PCB_SUB_ASSEMBLY~Main|ReportField=ModifiedDate~2016-07-18|ReportField=Organization~|ReportField=ProjectName~LPCB228__RLOOP__DC_CONVERTER.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~2|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB228__RLOOP__DC_CONVERTER.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB228__RLOOP__DC_CONVERTER\PROJECT\LPCB228__RLOOP__DC_CONVERTER.PrjPCB|ReportField=PCBDataSourceFileName~LPCB228R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB228__RLOOP__DC_CONVERTER\PCB\LPCB228R0.PcbDoc
+C1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CN1|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN2|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN3|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN4|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN5|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN6|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN7|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN8|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN9|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN10|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN11|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN12|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN13|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN14|LCN080|Connector, Blade Fuse Holder, 5mm Terminals, 30A Max, PTH|1|Top
+CN15|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN16|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN17|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN18|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN19|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN20|LCN041|Header, 2.54mm (0.1in), 2 Pins x 1 Row (40 Per Row In Strip)|1|Top
+CN21|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN22|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN23|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN24|LCN315|Terminal, Bush with M5 Shank|1|Top
+CN25|LCN305|Connector, Male Header, 8 Way|1|Top
+D1|LIC010|Diode, General Purpose Rectifier, 1A, PTH [LIC010]|1|Top
+D2|LIC006|Diode, Small Signal, 0.2A, 85V, SMD SOT-23 [LIC006]|1|Top
+IC1|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC2|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC3|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC4|LIC292|IC, Relay Driver, 28V Industrial, SMD SOT23 [LIC292]|1|Top
+IC5|LIC580|IC, Watchdog, SMD [LIC580]|1|Top
+IC6|LIC579|IC, Solid State Relay, PTH [LIC579]|1|Top
+IC7|LIC579|IC, Solid State Relay, PTH [LIC579]|1|Top
+PW1|LPW027|DC-DC Converter, 43-110VIN, 24V, 10A|1|Top
+R1|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R2|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R3|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R4|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R5|LRE133|Resistor, Thick Film, 1K, 0.75W, 5%, 400V, SMD 2010 [LRE133]|1|Top
+R6|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R7|LRE013|Resistor, Ceramic Chip, 220R, 0.25W, 1%, SMD 0805 [LRE013]|1|Top
+RLY1|LSW043|Relay, DPDT, 24V, Socket Mount|1|Top
+RLY2|LSW020|Relay, DPDT, Non Latching, 24VDC Coil, 1A Rating, PTH|1|Top
