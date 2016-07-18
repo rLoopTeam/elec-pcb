@@ -1,0 +1,27 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB227__RLOOP__REMOTE_ACCEL\PROJECT\LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB|ReportField=Title~LPCB227R0__BOM For Project [LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB] (PCB Document : LPCB227R0.PcbDoc)|ReportField=TotalQuantity~26|ReportField=ReportTime~6:10:22 PM|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 6:10:22 PM|ReportField=OutputName~LPCB227R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~6:08:59 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB227__RLOOP__REMOTE_ACCEL\SCHEMATICS\LPCB227 - OVERVIEW.SchDoc|ReportField=DocumentName~LPCB227 - OVERVIEW.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB227|ReportField=Lockie__PCB_ASSEMBLY~Main|ReportField=Lockie__PCB_DESCRIPTION~Accelerometer Module|ReportField=Lockie__PCB_SUB_ASSEMBLY~Overview|ReportField=ModifiedDate~2016-07-18|ReportField=Organization~|ReportField=ProjectName~LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~4|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB227__RLOOP__REMOTE_ACCEL\PROJECT\LPCB227__RLOOP__REMOTE_ACCEL.PrjPCB|ReportField=PCBDataSourceFileName~LPCB227R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB227__RLOOP__REMOTE_ACCEL\PCB\LPCB227R0.PcbDoc
+C1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C8|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C9|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C10|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C11|LCA016|Capacitor, Ceramic Chip, 100nF, 50V, 10%, SMD 0603|1|Top
+C12|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C13|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CE1|LCA071|Capacitor, Aluminum Electrolytic, 330uF, 35V, 20%, SMD (10mm x 10mm) [LCA071]|1|Top
+CN1|LCN305|Connector, Male Header, 8 Way|1|Top
+CN2|LCN305|Connector, Male Header, 8 Way|1|Top
+CT1|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+IC1|LIC393|IC, Accelerometer, 3-Axis, 3.3V, I2C, SMD QFN16 [LIC393]|1|Top
+IC2|LIC393|IC, Accelerometer, 3-Axis, 3.3V, I2C, SMD QFN16 [LIC393]|1|Top
+IC3|LIC571|IC, I2C Line Driver [LIC571]|1|Top
+IC4|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16|1|Top
+IC5|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Top
+R1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R3|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R4|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
