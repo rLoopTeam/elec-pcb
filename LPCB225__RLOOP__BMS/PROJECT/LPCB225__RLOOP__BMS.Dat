@@ -1,0 +1,92 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB225__RLOOP__BMS.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB225__RLOOP__BMS\PROJECT\LPCB225__RLOOP__BMS.PrjPCB|ReportField=Title~LPCB225R0__BOM For Project [LPCB225__RLOOP__BMS.PrjPCB] (PCB Document : LPCB225R0.PcbDoc)|ReportField=TotalQuantity~91|ReportField=ReportTime~6:15:39 PM|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 6:15:39 PM|ReportField=OutputName~LPCB225R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~6:14:44 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB225__RLOOP__BMS\SCHEMATICS\LPCB225 - OVERVIEW.SchDoc|ReportField=DocumentName~LPCB225 - OVERVIEW.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB225|ReportField=Lockie__PCB_ASSEMBLY~Module|ReportField=Lockie__PCB_DESCRIPTION~BMS Module|ReportField=Lockie__PCB_SUB_ASSEMBLY~Overview|ReportField=ModifiedDate~2016-07-18|ReportField=Organization~|ReportField=ProjectName~LPCB225__RLOOP__BMS.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~6|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB225__RLOOP__BMS.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB225__RLOOP__BMS\PROJECT\LPCB225__RLOOP__BMS.PrjPCB|ReportField=PCBDataSourceFileName~LPCB225R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB225__RLOOP__BMS\PCB\LPCB225R0.PcbDoc
+C1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C8|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C9|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C10|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C11|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C12|LCA113|Capacitor, Ceramic Chip, 47uF, 25V, 20%, SMD 1206 [LCA113]|1|Top
+C13|LCA114|Capactor, Ceramic Chip, 10uF, 35V, 20% (X7R), SMD 1206 [LCA114]|1|Top
+C14|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CN1|LCN305|Connector, Male Header, 8 Way|1|Top
+CN2|LCN318|Connector, Header, 2.54mm, 7 Pins x 2 Rows, SMD|1|Top
+CN3|LCN319|Connector, Socket, 2.54mm, 7 pins x 2 Rows, SMD|1|Bottom
+IC1|LIC578|IC, Oscillator Module, 1MHz, 3.3V, SMD [LIC578]|1|Top
+IC2|LIC566|IC, Flip Flop, SMD SOP8 [LIC566]|1|Top
+IC3|LIC563|ATA6870N-PLQW-1|1|Top
+IC4|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC5|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC6|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC7|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC8|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC9|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC10|LIC408|IC, Optocoupler, SMD [LIC408]|1|Top
+Q1|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q2|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q3|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q4|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q5|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q6|LIC163|FET, N Channel, Logic Level, SMD SOT23 [LIC163]|1|Top
+Q7|LIC241|FET, N Channel, Logic Level, SMD SOT23 [LIC241]|1|Top
+R1|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R2|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R3|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|1|Top
+R4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R7|LRE212|Resistor, Ceramic Chip, 121K, 0.1W, SMD 0603 [LRE212]|1|Top
+R8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R9|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R10|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R11|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R12|LRE126|Resistor, Ceramic Chip, 10R, 0.063W, 1%, SMD 0603 [LRE126]|1|Top
+R13|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R14|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R15|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R16|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R17|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R18|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R19|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R20|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R21|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R22|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R23|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R24|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R25|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R26|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R27|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R28|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R29|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R30|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R31|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R32|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R33|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R34|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R35|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R36|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R37|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R38|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R39|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R40|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R41|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R42|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R43|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R44|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R45|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R46|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R47|LRE107|Resistor, Ceramic Chip, 100K0, 0.063W, 1%, SMD 0603 [LRE107]|1|Top
+R48|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R49|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R50|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R51|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R52|LRE202|Resistor, Ceramic Chip, 82.5R, 0.25W, 1%, SMD 1206 [LRE202]|1|Top
+R53|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R54|LRE126|Resistor, Ceramic Chip, 10R, 0.063W, 1%, SMD 0603 [LRE126]|1|Top
+R55|LRE150|Resistor, Ceramic Chip, 270R, 0.1W, 1%, SMD 0603 [LRE150]|1|Top
+R56|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+RT1|LRE213|Thermistor, 10K, 5%, SMD 0603 [LRE213]|1|Top
