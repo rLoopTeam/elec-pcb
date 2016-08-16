@@ -1,0 +1,23 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB226__RLOOP__PACK_MODULE.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB226__RLOOP__PACK_MODULE\PROJECT\LPCB226__RLOOP__PACK_MODULE.PrjPCB|ReportField=Title~LPCB226R0__BOM For Project [LPCB226__RLOOP__PACK_MODULE.PrjPCB] (PCB Document : LPCB226R0.PcbDoc)|ReportField=TotalQuantity~22|ReportField=ReportTime~4:34:06 PM|ReportField=ReportDate~2016-08-16|ReportField=ReportDateTime~2016-08-16 4:34:06 PM|ReportField=OutputName~LPCB226R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=CurrentDate~2016-08-16|ReportField=CurrentTime~4:33:37 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB226__RLOOP__PACK_MODULE\SCHEMATICS\LPCB226 - TOP OVERVIEW.SchDoc|ReportField=DocumentName~LPCB226 - TOP OVERVIEW.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=Lockie__LDL~LPCB226|ReportField=Lockie__PCB_ASSEMBLY~Pack Module|ReportField=Lockie__PCB_DESCRIPTION~Battery Pack Module|ReportField=Lockie__PCB_SUB_ASSEMBLY~Top Overview|ReportField=ModifiedDate~2016-06-26|ReportField=Organization~|ReportField=ProjectName~LPCB226__RLOOP__PACK_MODULE.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~1|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~LPCB226__RLOOP__PACK_MODULE.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB226__RLOOP__PACK_MODULE\PROJECT\LPCB226__RLOOP__PACK_MODULE.PrjPCB|ReportField=PCBDataSourceFileName~LPCB226R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB226__RLOOP__PACK_MODULE\PCB\LPCB226R0.PcbDoc
+BT1|LPW024|Battery, LiPo|1|Top
+BT2|LPW024|Battery, LiPo|1|Top
+BT3|LPW024|Battery, LiPo|1|Top
+BT4|LPW024|Battery, LiPo|1|Top
+BT5|LPW024|Battery, LiPo|1|Top
+BT6|LPW024|Battery, LiPo|1|Top
+CN1|LCN305|Connector, Male Header, 8 Way|1|Top
+IC1|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC2|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC3|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC4|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC5|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC6|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC7|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC8|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC9|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC10|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC11|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC12|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Top
+IC13|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Bottom
+IC14|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Bottom
+IC15|LIC551|IC, Temperature Sensor, 1 Wire, PTH|1|Bottom
