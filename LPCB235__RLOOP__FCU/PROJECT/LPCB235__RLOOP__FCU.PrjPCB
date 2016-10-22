@@ -607,7 +607,55 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document37]
-DocumentPath=..\SCHEMATICS\LPCB235 - LIFT MECH.SchDoc
+DocumentPath=..\SCHEMATICS\LPCB235 - ASI RS485.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=66
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document38]
+DocumentPath=..\SCHEMATICS\LPCB235 - HEC1-4.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=67
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document39]
+DocumentPath=..\SCHEMATICS\LPCB235 - HEC5-8.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=68
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document40]
+DocumentPath=..\PCB\LPCB235R0__ASCII.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -714,10 +762,14 @@ Variation84=Designator=CN2|UniqueId=\YBCXDHSM\ESJCNPSB\XTFWVJKB|Kind=1|Alternate
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=..\ASSEMBLY\LPCB235R0__ASSEMBLY.csv
+DocumentPath=ProjectOutputs\Design Rule Check - LPCB235R0.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=..\ASSEMBLY\LPCB235R0__ASSEMBLY.csv
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=..\FMEDA\LPCB235R0__FMEDA.csv
 DItemRevisionGUID=
 

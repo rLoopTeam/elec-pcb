@@ -1,0 +1,425 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB235__RLOOP__FCU.PrjPCB|ReportField=ProjectFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB235__RLOOP__FCU\PROJECT\LPCB235__RLOOP__FCU.PrjPCB|ReportField=Title~LPCB235R0__BOM For Variant [STANDARD] of Project [LPCB235__RLOOP__FCU.PrjPCB] (PCB Document : LPCB235R0.PcbDoc)|ReportField=TotalQuantity~424|ReportField=ReportTime~2:49:18 PM|ReportField=ReportDate~2016-10-22|ReportField=ReportDateTime~2016-10-22 2:49:18 PM|ReportField=OutputName~LPCB235R0__BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~STANDARD|ReportField=Address1~Unit 4|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2016-10-22|ReportField=CurrentTime~2:47:59 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB235__RLOOP__FCU\SCHEMATICS\LPCB235 - OVERVIEW.SchDoc|ReportField=DocumentName~LPCB235 - OVERVIEW.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB235|ReportField=Lockie__PCB_ASSEMBLY~FCU PCB|ReportField=Lockie__PCB_DESCRIPTION~Flight Control Unit|ReportField=Lockie__PCB_SUB_ASSEMBLY~Overview|ReportField=ModifiedDate~2016-10-22|ReportField=Organization~|ReportField=ProjectName~LPCB235__RLOOP__FCU.PrjPCB|ReportField=Revision~2|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~37|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=PageSetup~Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.02|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=4200|PaperWidth=2970|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A3 (297 x 420 mm)|PrintScaleMode=1|ReportField=DataSourceFileName~LPCB235__RLOOP__FCU.PrjPCB|ReportField=DataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB235__RLOOP__FCU\PROJECT\LPCB235__RLOOP__FCU.PrjPCB|ReportField=PCBDataSourceFileName~LPCB235R0.PcbDoc|ReportField=PCBDataSourceFullPath~E:\LOCKIE\DESIGN\RLOOP\ALTIUM\LPCB235__RLOOP__FCU\PCB\LPCB235R0.PcbDoc
+C1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C2|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C8|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C9|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C10|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C11|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C12|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C13|LCA097|Capacitor, Ceramic Chip, 100uF, 6.3V, X5R, 20%, SMD 1210 [LCA097]|1|Bottom
+C14_OGA1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C14_OGA2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C14_OGA3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C15|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C16|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C17|LCA097|Capacitor, Ceramic Chip, 100uF, 6.3V, X5R, 20%, SMD 1210 [LCA097]|1|Bottom
+C18|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C19|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C20|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C21|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C22|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C23|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C24|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C26|LCA019|Capacitor, Ceramic Chip, 10pF, 50V, 5%, SMD 0603 [LCA019]|1|Top
+C27|LCA019|Capacitor, Ceramic Chip, 10pF, 50V, 5%, SMD 0603 [LCA019]|1|Top
+C28|LCA019|Capacitor, Ceramic Chip, 10pF, 50V, 5%, SMD 0603 [LCA019]|1|Top
+C29|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C30|LCA072|Capacitor, Ceramic Chip, 10nF (0.01uF), 25V, 5%, SMD 0402 [LCA072]|1|Top
+C31|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C32|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C33|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C34|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C35|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C36|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C37|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C38|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C39|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C40|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C41|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C42|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C43|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C44|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C45|LCA097|Capacitor, Ceramic Chip, 100uF, 6.3V, X5R, 20%, SMD 1210 [LCA097]|1|Top
+C46|LCA097|Capacitor, Ceramic Chip, 100uF, 6.3V, X5R, 20%, SMD 1210 [LCA097]|1|Top
+C47|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C48|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C49|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C50|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C51|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C52|LCA097|Capacitor, Ceramic Chip, 100uF, 6.3V, X5R, 20%, SMD 1210 [LCA097]|1|Top
+C53|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C54|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C55|LCA072|Capacitor, Ceramic Chip, 10nF (0.01uF), 25V, 5%, SMD 0402 [LCA072]|1|Bottom
+C56|LCA072|Capacitor, Ceramic Chip, 10nF (0.01uF), 25V, 5%, SMD 0402 [LCA072]|1|Bottom
+C57|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C58|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C59|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C60|LCA098|Capacitor, Ceramic Chip, 1uF, 50V, SMD 0805 [LCA098]|1|Top
+C61|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C62|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C63|LCA111|Capacitor, Ceramic Chip, 470pF, 50V, 10% X7R, SMD 0603 [LCA111]|1|Top
+C64|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C65|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C66|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C67|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C68|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C69|LCA098|Capacitor, Ceramic Chip, 1uF, 50V, SMD 0805 [LCA098]|1|Top
+C70|LCA015|Capacitor, Ceramic Chip, 1nF (1000pF), 50V, 10%, SMD 0603 [LCA015]|1|Top
+C71|LCA098|Capacitor, Ceramic Chip, 1uF, 50V, SMD 0805 [LCA098]|1|Top
+C72|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C73|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C74|LCA098|Capacitor, Ceramic Chip, 1uF, 50V, SMD 0805 [LCA098]|1|Top
+C75|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C76|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C77|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C78|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C79|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C80|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C81|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C82|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C83|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C84|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C85|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C86|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C87|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C88|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C89|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Bottom
+C90|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C91|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C92|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C93|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C94|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C95|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C98|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C99|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C100|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C101|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C102|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C103|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C104|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C105|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C108|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C109|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C110|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C111|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C112_OGB1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C112_OGB2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C112_OGB3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C113|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C114|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C115|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C116|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C117|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C118|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C119|LCA073|Capacitor, Ceramic Chip, 100nF (0.1uF), 6.3V, 10%, SMD 0402 [LCA073]|1|Top
+C120|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C121|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C122|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C123|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C124|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C125|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C126|LCA093|Capacitor, Ceramic Chip, 4.7uF, 25V, 10%, SMD 0805 [LCA093]|1|Top
+C128_TH1|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH2|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH3|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH4|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH5|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH6|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH7|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C128_TH8|LCA152|Capacitor, Ceramic Chip, 1uF, 50V, 10% (X5R), SMD 0603 [LCA152]|1|Top
+C129_TH1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C129_TH8|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C130|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C131|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C132|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C133|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH3|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH4|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH5|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH6|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH7|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C134_TH8|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C137|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C138|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C139|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C140|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Bottom
+C141_ML1|LCA019|Capacitor, Ceramic Chip, 10pF, 50V, 5%, SMD 0603 [LCA019]|1|Top
+C141_ML2|LCA019|Capacitor, Ceramic Chip, 10pF, 50V, 5%, SMD 0603 [LCA019]|1|Top
+C142_ML1|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C142_ML2|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C143|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C144|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C145|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C146|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C147|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+C148|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|1|Top
+CE1|LCA071|Capacitor, Aluminum Electrolytic, 330uF, 35V, 20%, SMD (10mm x 10mm) [LCA071]|1|Top
+CE4|LCA071|Capacitor, Aluminum Electrolytic, 330uF, 35V, 20%, SMD (10mm x 10mm)|1|Top
+CE5|LCA071|Capacitor, Aluminum Electrolytic, 330uF, 35V, 20%, SMD (10mm x 10mm)|1|Top
+CN1|LCN249|Connector, Molex CMC, Automotive Socket, 80 Circuits, 2 Pockets|1|Top
+CN3|LCN249|Connector, Molex CMC, Automotive Socket, 80 Circuits, 2 Pockets|1|Top
+CT1|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Bottom
+CT2|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Bottom
+CT3|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT6|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT7|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT8|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT9|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT10|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT11|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT12|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+CT13|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Bottom
+CT14|LCA039|Capacitor, Tantalum, 22uF, 16V, 10%, SMD TC3528 (BCASE) [LCA039]|1|Top
+D1|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D2|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D3|LIC189|Diode, General Purpose Rectifier, 3A, 200V, SMD DO-214AB [LIC189]|1|Bottom
+D4|LIC189|Diode, General Purpose Rectifier, 3A, 200V, SMD DO-214AB [LIC189]|1|Top
+D5|LIC367|Diode, Schottky Rectifier, 60V, 1A, SMD DO-214AC [LIC367]|1|Top
+D6|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D7|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D9|LIC189|Diode, General Purpose Rectifier, 3A, 200V, SMD DO-214AB [LIC189]|1|Bottom
+D10|LIC006|Diode, Small Signal, 0.2A, 85V, SMD SOT-23 [LIC006]|1|Bottom
+D11|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D12|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+D17|LIC345|Diode, Small Signal, SMD SOD-323F [LIC345]|1|Bottom
+IC1|LIC393|IC, Accelerometer, 3-Axis, 3.3V, I2C, SMD QFN16 [LIC393]|1|Top
+IC2|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Bottom
+IC3_OGA1|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC3_OGA2|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC3_OGA3|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC4|LIC105|IC, High Speed CAN Transceiver, SMD SOIC8 [LIC105]|1|Top
+IC5|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC6|LIC393|IC, Accelerometer, 3-Axis, 3.3V, I2C, SMD QFN16 [LIC393]|1|Top
+IC7|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC8|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC9|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC10|LIC328|IC, Voltage Regulator, 400mA, 5V LDO, SMD DPAK [LIC328]|1|Bottom
+IC11|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC12|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC13|LIC508|IC, Oscillator Module, 1.8432MHz, 3.3V, SMD [LIC508]|1|Top
+IC14|LIC278|IC, CPU, RM48 Safety CPU, SMD NFBGA337 [LIC278]|1|Top
+IC15|LIC016|LED, SMD, 0805 Green [LIC016]|1|Top
+IC16|LIC364|IC, Power Management IC, SMD [LIC364]|1|Top
+IC17|LIC289|IC, SPI IO Expander, 16bit, SMD SSOP28 [LIC289]|1|Top
+IC18|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC19|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Bottom
+IC20|LIC328|IC, Voltage Regulator, 400mA, 5V LDO, SMD DPAK [LIC328]|1|Bottom
+IC21|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC22|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC23|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16 [LIC165]|1|Top
+IC24|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16 [LIC165]|1|Top
+IC25|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC26|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC27|LIC374|IC, Ethernet Transceiver, Precision Real Time Protocol, SMD LQFP48 [LIC374]|1|Top
+IC28|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC29|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC30|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC31|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC32_OGB1|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC32_OGB2|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC32_OGB3|LIC542|IC, RS422 Tx Rx, SMD SOIC 8|1|Top
+IC33|LIC472|IC, SPI to UART bridge [LIC472]|1|Top
+IC34|LIC388|IC, Oscillator Module, 25MHz, 3.3V, SMD [LIC388]|1|Top
+IC35|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16 [LIC165]|1|Top
+IC36|LIC160|IC, Hex Inveter, Schmitt Trigger, SMD [LIC160]|1|Top
+IC37|LIC550|IC, ADC / DAC, SMD [LIC550]|1|Top
+IC38_TH1|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH2|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH3|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH4|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH5|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH6|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH7|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC38_TH8|LIC549|IC, Isolation Amplifier, SMD SOIC8 [LIC549]|1|Top
+IC39_TH1|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH2|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH3|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH4|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH5|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH6|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH7|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC39_TH8|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC40|LIC543|IC, RS485 Isolator, SMD SOIC 16 [LIC543]|1|Bottom
+IC42|LIC580|IC, Watchdog, SMD [LIC580]|1|Top
+IC43|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16 [LIC165]|1|Top
+IC45|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Bottom
+IC46|LIC525|IC, Multiplexer Select 2-1 [LIC525]|1|Top
+IC47_ML1|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC47_ML2|LIC570|IC, OpAmp, 1-Channel, Low Noise, SMD SOT-23-5 [LIC570]|1|Top
+IC48_ML1|LIC547|Diode, Zener, 3.6V, 0.225W, SMD [LIC083]|1|Top
+IC48_ML2|LIC547|Diode, Zener, 3.6V, 0.225W, SMD [LIC083]|1|Top
+IC49|LIC292|IC, Relay Driver, 28V Industrial, SMD SOT23 [LIC292]|1|Top
+IC50|LIC336|IC, Logic OR Gate, Single 2 Input, SMD SOT353 [LIC336]|1|Top
+IC51|LIC336|IC, Logic OR Gate, Single 2 Input, SMD SOT353 [LIC336]|1|Top
+IC52|LIC165|IC, RS232 Line Driver, 3.3V, SMD TSSOP16|1|Top
+L1|LIN017|Ferrite, EMI/RFI Suppression, SMD 0805 [LIN017]|1|Top
+L2|LIN031|Inductor, 10uH, 20%, 5.7A, SMD [LIN031]|1|Top
+L3|LIN032|Transformer, Signal Transformers, SMD [LIN032]|1|Top
+L4|LIN031|Inductor, 10uH, 20%, 5.7A, SMD [LIN031]|1|Top
+PW2|LPW030|Non Isolated DC/DC Module|1|Top
+Q1|LIC366|Transistor, NPN, 20V 8A 770mW 95MHz, SMD [LIC366]|1|Top
+Q2|LIC366|Transistor, NPN, 20V 8A 770mW 95MHz, SMD [LIC366]|1|Top
+R1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R3|LRE077|Resistor, Ceramic Chip, 121R, 0.33W, 1%, SMD 1210 [LRE077]|1|Bottom
+R4|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R5|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R6|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R9|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R10|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R11|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|1|Top
+R12|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R13|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R14|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R15|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R16|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R17|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R18|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R19|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R20|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R21_OGA1|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R21_OGA2|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R21_OGA3|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R22_ML1|LRE228|Resistor, Ceramic Chip, 162R, 0.33W, 1%, SMD 1210 [LRE228]|1|Top
+R22_ML2|LRE228|Resistor, Ceramic Chip, 162R, 0.33W, 1%, SMD 1210 [LRE228]|1|Top
+R23|LRE120|Resistor, Ceramic Chip, 30K, 0.1W, 1%, SMD 0603 [LRE120]|1|Top
+R24|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R25|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R26|LRE120|Resistor, Ceramic Chip, 30K, 0.1W, 1%, SMD 0603 [LRE120]|1|Top
+R27|LRE176|Resistor, Ceramic Chip, 18K, 0.1W, 1%, SMD 0603 [LRE176]|1|Top
+R28|LRE120|Resistor, Ceramic Chip, 30K, 0.1W, 1%, SMD 0603 [LRE120]|1|Top
+R29|LRE028|Resistor, Ceramic Chip, 5.6K, 0.1W, 1%, SMD 0603 [LRE028]|1|Top
+R30|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R31|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R32|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R33|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R34|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R35|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Top
+R36|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R37|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R38|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R39_OGA1|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R39_OGA2|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R39_OGA3|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R40|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R41|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R42|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R43|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R44|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R45|LRE142|Resistor, Array, 49.9R, 0.063W, 1%, SMD 0603 [LRE142]|1|Top
+R46|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R47|LRE147|Resistor, Ceramic Chip, 10K, 0.0625W, 1%, SMD 0402 [LRE147]|1|Top
+R48|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R49|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R50|LRE144|Resistor, Ceramic Chip, 4.75K, 0.0625W, 1%, SMD 0402 [LRE144]|1|Top
+R51|LRE093|Resistor, Ceramic Chip, 49.9R, 0.0625W, 0.5%, SMD 0402 [LRE093]|1|Top
+R52|LRE093|Resistor, Ceramic Chip, 49.9R, 0.0625W, 0.5%, SMD 0402 [LRE093]|1|Top
+R53|LRE093|Resistor, Ceramic Chip, 49.9R, 0.0625W, 0.5%, SMD 0402 [LRE093]|1|Top
+R54|LRE093|Resistor, Ceramic Chip, 49.9R, 0.0625W, 0.5%, SMD 0402 [LRE093]|1|Top
+R55|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R56|LRE037|Resistor, Ceramic Chip, 47R, 0.1W, 1%, SMD 0603 [LRE037]|1|Top
+R57|LRE106|Resistor, Ceramic Chip, 1K0, 0.063W, 1%, SMD 0603 [LRE106]|1|Bottom
+R58|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R59|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R60|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R61|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R62_OGB1|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R62_OGB2|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R62_OGB3|LRE190|Resistor, Thick Film, 120R, 0.25W, 5%, SMD 0805 [LRE190]|1|Top
+R63_OGB1|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R63_OGB2|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R63_OGB3|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Bottom
+R64|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R65|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Bottom
+R67|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R68|LRE219|Resistor, Thick Film, 330R, 0.100W, 75V, 1%, SMD 0603 [LRE219]|1|Top
+R69|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R70|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R71|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R72|LRE219|Resistor, Thick Film, 330R, 0.100W, 75V, 1%, SMD 0603 [LRE219]|1|Top
+R73|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R74|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R75|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R76|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|1|Top
+R77|LRE219|Resistor, Thick Film, 330R, 0.100W, 75V, 1%, SMD 0603 [LRE219]|1|Top
+R78|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R79_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R80_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R81_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R82_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R84|LRE144|Resistor, Ceramic Chip, 4.75K, 0.0625W, 1%, SMD 0402 [LRE144]|1|Bottom
+R85|LRE144|Resistor, Ceramic Chip, 4.75K, 0.0625W, 1%, SMD 0402 [LRE144]|1|Bottom
+R86_TH1|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH2|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH3|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH4|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH5|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH6|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH7|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R86_TH8|LRE220|Resistor, Thick Film, 2.7K, 0.100W, 75V, 1%, SMD 0603 [LRE220]|1|Top
+R87_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R87_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH1|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH2|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH3|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH4|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH5|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH6|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH7|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R88_TH8|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R89|LRE030|Resistor, Ceramic Chip, 10K, 0.1W, 1%, SMD 0603 [LRE030]|1|Top
+R91_ML1|LRE167|Resistor, Ceramic Chip, 1.78K, 0.1W, 1%, SMD 0603 [LRE167]|1|Top
+R91_ML2|LRE167|Resistor, Ceramic Chip, 1.78K, 0.1W, 1%, SMD 0603 [LRE167]|1|Top
+R92_ML1|LRE140|Resistor, Ceramic Chip, 3.3K0, 0.1W, 1%, SMD 0603 [LRE140]|1|Top
+R92_ML2|LRE140|Resistor, Ceramic Chip, 3.3K0, 0.1W, 1%, SMD 0603 [LRE140]|1|Top
+RLY2|LSW007|Relay, DPDT, Non Latching, 12VDC Coil, 2A Rating, PTH|1|Top
+X1|LIC110|Crystal, 10MHz, 18pF, SMD [LIC110]|1|Top
