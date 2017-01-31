@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 8:00:03 AM On 2016-11-15
+
+Output: LPCB235R0__BOM_GROUPED
+Type  : BOM
+From  : Variant [STANDARD] of Project [LPCB235__RLOOP__FCU.PrjPCB]
+   Generated File[LPCB235R0__BOM_GROUPED.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:01:03 AM On 2016-11-15
