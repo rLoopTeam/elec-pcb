@@ -441,8 +441,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1500 9200 1500
 Wire Wire Line
-	9200 1500 9200 1600
-Wire Wire Line
 	9200 1600 10150 1600
 Wire Wire Line
 	9200 1700 10150 1700
@@ -664,4 +662,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 2350 6050 2900
 Connection ~ 6050 2600
+Text Notes 6050 7400 0    60   ~ 0
+TODO: ADD 10 OHM
 $EndSCHEMATC

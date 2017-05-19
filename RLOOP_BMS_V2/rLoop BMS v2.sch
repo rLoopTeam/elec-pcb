@@ -441,8 +441,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1500 9200 1500
 Wire Wire Line
-	9200 1500 9200 1600
-Wire Wire Line
 	9200 1600 10150 1600
 Wire Wire Line
 	9200 1700 10150 1700
@@ -641,8 +639,6 @@ Wire Wire Line
 	9900 650  9900 2600
 Connection ~ 9900 2600
 Wire Wire Line
-	6000 7200 6900 7200
-Wire Wire Line
 	6900 7200 6900 6350
 Wire Wire Line
 	6900 6350 9900 6350
@@ -664,4 +660,19 @@ Wire Wire Line
 Wire Wire Line
 	6050 2350 6050 2900
 Connection ~ 6050 2600
+$Comp
+L R R95
+U 1 1 591DF6A5
+P 6450 7200
+F 0 "R95" V 6350 7150 50  0000 C CNN
+F 1 "10R / 0.125W / 1% / SMD 0603" V 6550 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6380 7200 50  0001 C CNN
+F 3 "" H 6450 7200 50  0001 C CNN
+	1    6450 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 7200 6300 7200
+Wire Wire Line
+	6600 7200 6900 7200
 $EndSCHEMATC
