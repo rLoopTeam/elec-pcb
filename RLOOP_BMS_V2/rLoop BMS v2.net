@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "//data1/Users/davidcorrigan/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/rLoop BMS v2.sch")
-    (date "5/17/2017 7:35:50 PM")
+    (source "C:/Users/David/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/rLoop BMS v2.sch")
+    (date "5/20/2017 12:52:25 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1427,9 +1427,9 @@
     (library (logical opto)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\opto.lib"))
     (library (logical "BMS Library")
-      (uri "\\\\data1\\Users\\davidcorrigan\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\library\\BMS Library.lib"))
+      (uri "C:\\Users\\David\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\library\\BMS Library.lib"))
     (library (logical "rLoop BMS v2-cache")
-      (uri "\\\\data1\\Users\\davidcorrigan\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\rLoop BMS v2-cache.lib")))
+      (uri "C:\\Users\\David\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\rLoop BMS v2-cache.lib")))
   (nets
     (net (code 1) (name "/DISCHARGE Top/CELL_15")
       (node (ref R36) (pin 1))
