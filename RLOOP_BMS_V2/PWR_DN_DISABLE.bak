@@ -91,12 +91,8 @@ Wire Wire Line
 Wire Wire Line
 	5150 3650 5150 3950
 Wire Wire Line
-	5750 3650 7050 3650
-Wire Wire Line
 	6350 4000 6350 3650
 Connection ~ 6350 3650
-Wire Wire Line
-	7050 3450 5750 3450
 Wire Wire Line
 	6350 4500 6350 4300
 Wire Wire Line
@@ -133,4 +129,21 @@ F 3 "" H 5050 4150 50  0001 C CNN
 	1    5050 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 592244F5
+P 6750 3550
+F 0 "JP1" H 6750 3630 50  0000 C CNN
+F 1 "Debug Jumper" V 6550 3550 50  0000 C CNN
+F 2 "" H 6750 3550 50  0001 C CNN
+F 3 "" H 6750 3550 50  0001 C CNN
+	1    6750 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3450 7050 3450
+Wire Wire Line
+	5750 3650 7050 3650
+Connection ~ 6750 3650
+Connection ~ 6750 3450
 $EndSCHEMATC
