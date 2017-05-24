@@ -13,7 +13,7 @@
   (fp_line (start 5.2 1.9) (end 5.2 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
-  (model "../../../../../../Users/David/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/3d Models/MP930.wrl"
+  (model "//data1/Users/davidcorrigan/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/3d Models/MP930.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

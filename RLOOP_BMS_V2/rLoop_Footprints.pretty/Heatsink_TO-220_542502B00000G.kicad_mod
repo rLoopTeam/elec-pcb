@@ -19,7 +19,7 @@
     (zone_connect 0))
   (pad ISO thru_hole circle (at -8.89 0) (size 3 3) (drill 2.1) (layers *.Cu *.Mask)
     (zone_connect 0))
-  (model "../../../../../../Users/David/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/3d Models/Heatsink 542502B00000G.wrl"
+  (model "//data1/Users/davidcorrigan/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/3d Models/Heatsink 542502B00000G.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
