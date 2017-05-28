@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 9
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -93,6 +93,7 @@ F 0 "J2" V 5500 4000 60  0000 C CNN
 F 1 "2-640387-0" V 5500 3150 60  0000 C CNN
 F 2 "rLoop_Footprints:TE_2-640387-0" H 5200 3150 60  0001 C CNN
 F 3 "" H 5200 3150 60  0001 C CNN
+F 4 "www.mouser.com/somethingeroher" V 5300 3650 60  0001 C CNN "Source"
 	1    5300 3650
 	1    0    0    1   
 $EndComp
