@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/David/Documents/GitHub/elec-pcb/RLOOP_BMS_V2/rLoop BMS v2.sch")
-    (date "5/21/2017 5:39:30 PM")
+    (date "5/27/2017 5:46:16 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -158,7 +158,7 @@
       (sheetpath (names "/Clock Generator/") (tstamps /590C13C3/))
       (tstamp 590C02AA))
     (comp (ref J1)
-      (value CONN_02X07)
+      (value 1241050-7)
       (footprint rLoop_Footprints:Pin_Header_Straight_2x07_Pitch2.54mm_SMD_MIRROR)
       (libsource (lib conn) (part CONN_02X07))
       (sheetpath (names "/MCU Connector/") (tstamps /590C18FD/))
@@ -202,6 +202,8 @@
     (comp (ref J2)
       (value 2-640387-0)
       (footprint rLoop_Footprints:TE_2-640387-0)
+      (fields
+        (field (name Source) www.mouser.com/somethingeroher))
       (libsource (lib "rLoop BMS v2-cache") (part 2-640387-0))
       (sheetpath (names "/Batt Conn/") (tstamps /590C26AF/))
       (tstamp 5919474D))
@@ -1434,14 +1436,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical opto)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\opto.lib"))
     (library (logical "BMS Library")
       (uri "C:\\Users\\David\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\library\\BMS Library.lib"))
     (library (logical "rLoop BMS v2-cache")
       (uri "C:\\Users\\David\\Documents\\GitHub\\elec-pcb\\RLOOP_BMS_V2\\rLoop BMS v2-cache.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical opto)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\opto.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets
