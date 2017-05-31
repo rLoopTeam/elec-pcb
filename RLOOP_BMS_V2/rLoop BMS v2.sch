@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -132,12 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 6250 4250 6250
 Wire Wire Line
-	2700 6700 2850 6700
-Wire Wire Line
-	2850 6700 2850 7050
-Wire Wire Line
-	2850 7000 4250 7000
-Wire Wire Line
 	4250 6900 2950 6900
 Wire Wire Line
 	2950 6900 2950 6600
@@ -165,7 +159,6 @@ Wire Wire Line
 	3350 6400 3350 6200
 Wire Wire Line
 	3350 6200 2700 6200
-Connection ~ 2850 7000
 $Sheet
 S 4250 700  1750 1750
 U 590C6B15
@@ -621,9 +614,9 @@ Wire Wire Line
 Wire Wire Line
 	9150 1750 10400 1750
 Wire Wire Line
-	10400 1650 9200 1650
+	9200 1650 10400 1650
 Wire Wire Line
-	9200 1650 9200 1450
+	9200 550  9200 1650
 Wire Wire Line
 	9200 1450 8450 1450
 Wire Wire Line
@@ -670,4 +663,35 @@ Wire Wire Line
 	4150 1800 4150 2950
 Wire Wire Line
 	4150 2950 4250 2950
+$Sheet
+S 950  1950 1550 1200
+U 592F4D0C
+F0 "ISO POWER" 60
+F1 "ISO Power.sch" 60
+F2 "ISO_GND" O R 2500 2400 60 
+F3 "BATT" O R 2500 2250 60 
+F4 "5V_ISO" O R 2500 2650 60 
+$EndSheet
+Wire Wire Line
+	2550 550  2550 2250
+Wire Wire Line
+	2550 2250 2500 2250
+Wire Wire Line
+	2550 550  9200 550 
+Connection ~ 9200 1450
+Wire Wire Line
+	2500 2400 2600 2400
+Wire Wire Line
+	2600 2400 2600 600 
+Wire Wire Line
+	2600 600  10300 600 
+Wire Wire Line
+	10300 600  10300 3450
+Connection ~ 10300 3450
+Wire Wire Line
+	2500 2650 2800 2650
+Wire Wire Line
+	2800 2650 2800 6700
+Wire Wire Line
+	2800 6700 2700 6700
 $EndSCHEMATC
