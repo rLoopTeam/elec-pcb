@@ -739,7 +739,7 @@ $EndComp
 Wire Wire Line
 	4250 2300 3650 2300
 Wire Wire Line
-	3650 2200 3650 2300
+	3650 2300 3650 2200
 Wire Wire Line
 	3500 2200 3850 2200
 Connection ~ 3650 2200
