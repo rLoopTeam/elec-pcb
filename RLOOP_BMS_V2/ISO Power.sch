@@ -103,8 +103,6 @@ Wire Wire Line
 Text HLabel 6000 3300 2    60   Input ~ 0
 BATT
 Connection ~ 7050 3500
-Text Notes 1650 1150 0    315  ~ 0
-TODO: Optocoupler shutdown circuit
 Text HLabel 9650 3500 2    60   Output ~ 0
 5V_ISO
 Connection ~ 9200 3500

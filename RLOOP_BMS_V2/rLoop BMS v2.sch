@@ -701,4 +701,11 @@ Wire Wire Line
 	2800 2800 2800 6050
 Wire Wire Line
 	2800 6050 2700 6050
+Wire Wire Line
+	6000 4500 6350 4500
+Wire Wire Line
+	6350 4500 6350 4350
+Connection ~ 6350 4350
+Text Notes 700  4250 0    197  ~ 0
+TODO ADD\nPIN 50 TO IC
 $EndSCHEMATC

@@ -76,10 +76,13 @@ F 3 "" H 4850 2300 50  0001 C CNN
 	1    4850 3500
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 4600 3700
 NoConn ~ 4600 3600
 Text GLabel 4600 3200 0    60   Input ~ 0
 GND_1
 NoConn ~ 4600 3300
 NoConn ~ 4600 3500
+Text GLabel 4600 3700 0    60   Input ~ 0
+1_WIRE
+Wire Wire Line
+	4600 3700 4600 3700
 $EndSCHEMATC
