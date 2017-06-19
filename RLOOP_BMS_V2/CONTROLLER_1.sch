@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:rLoop BMS v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -242,14 +243,12 @@ F 3 "" H 6800 4600 50  0001 C CNN
 $EndComp
 Text GLabel 4700 5750 3    60   Input ~ 0
 GND_1
-NoConn ~ 5200 5100
-NoConn ~ 5300 5100
-NoConn ~ 5400 5100
-NoConn ~ 5500 5100
 $Comp
-L bq76PL536A_HTQFP U3
+L bq76PL536A_HTQFP-RESCUE-rLoop_BMS_v2 U3
 U 1 1 592C9A06
 P 5550 3650
+AR Path="/592C9A06" Ref="U3"  Part="1" 
+AR Path="/590D88AD/592C9A06" Ref="U3"  Part="1" 
 F 0 "U3" H 5550 3650 60  0000 C CNN
 F 1 "bq76PL536A_HTQFP" H 5550 3900 60  0000 C CNN
 F 2 "rLoop_Footprints:bq76pl536a" H 5550 3650 60  0001 C CNN
@@ -586,7 +585,7 @@ Connection ~ 6750 4250
 Wire Wire Line
 	4300 3750 4400 3750
 Wire Wire Line
-	4300 3550 4300 3750
+	4300 3450 4300 3750
 Wire Wire Line
 	4250 3550 4400 3550
 Connection ~ 4300 3550
@@ -800,4 +799,22 @@ Wire Wire Line
 	8950 1500 8800 1500
 Wire Wire Line
 	8800 1500 8800 1450
+Text HLabel 5200 5750 3    60   Output ~ 0
+FAULT_H
+Text HLabel 5300 5750 3    60   Output ~ 0
+ALERT_H
+Text HLabel 5400 5750 3    60   Output ~ 0
+DRDY_H
+Text HLabel 5500 5750 3    60   Input ~ 0
+CONV_H
+Wire Wire Line
+	5500 5750 5500 5100
+Wire Wire Line
+	5400 5100 5400 5750
+Wire Wire Line
+	5300 5750 5300 5100
+Wire Wire Line
+	5200 5100 5200 5750
+Wire Wire Line
+	4400 3450 4300 3450
 $EndSCHEMATC
