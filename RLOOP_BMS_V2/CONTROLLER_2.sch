@@ -706,7 +706,7 @@ Connection ~ 4100 3600
 Wire Wire Line
 	6500 4200 6800 4200
 Wire Wire Line
-	6800 4200 6800 4850
+	6800 4100 6800 4850
 Wire Wire Line
 	6500 4300 6800 4300
 Connection ~ 6800 4300
@@ -954,4 +954,7 @@ Wire Wire Line
 	2450 7450 2450 7350
 Wire Wire Line
 	4250 3400 4100 3400
+Wire Wire Line
+	6500 4100 6800 4100
+Connection ~ 6800 4200
 $EndSCHEMATC

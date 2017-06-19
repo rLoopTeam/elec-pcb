@@ -690,8 +690,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 4500 6350 4350
 Connection ~ 6350 4350
-Text Notes 700  4250 0    197  ~ 0
-TODO ADD\nPIN 50 TO IC
 Wire Wire Line
 	2700 6800 4250 6800
 Wire Wire Line

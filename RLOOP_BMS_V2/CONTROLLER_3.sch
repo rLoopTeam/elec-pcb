@@ -303,7 +303,7 @@ GND_3
 Wire Wire Line
 	6550 3500 6850 3500
 Wire Wire Line
-	6850 3500 6850 4150
+	6850 3400 6850 4150
 Wire Wire Line
 	6550 3600 6850 3600
 Connection ~ 6850 3600
@@ -831,4 +831,7 @@ Wire Wire Line
 Connection ~ 1950 6850
 Wire Wire Line
 	4300 2700 4200 2700
+Wire Wire Line
+	6550 3400 6850 3400
+Connection ~ 6850 3500
 $EndSCHEMATC
