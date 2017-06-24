@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1550 5300 0    60   Input ~ 0
+Text HLabel 1900 6150 0    60   Input ~ 0
 CHR_RLY
 Text HLabel 1300 1850 0    60   Output ~ 0
 CHG_I

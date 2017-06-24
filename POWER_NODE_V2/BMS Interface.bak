@@ -58,7 +58,7 @@ Text HLabel 8000 3200 2    60   Input ~ 0
 BMS_COMMS_EN
 Text HLabel 2050 4700 0    60   Input ~ 0
 BMS_CONV
-Text HLabel 4050 6550 0    60   Input ~ 0
+Text HLabel 2850 7100 0    60   Input ~ 0
 BMS_FAN
 Text HLabel 2050 4900 0    60   Output ~ 0
 BMS_FAULT
@@ -86,8 +86,8 @@ F 3 "" H 4300 4900 60  0001 C CNN
 	1    4300 4900
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 7000 0    197  ~ 0
-TODO: Spec suffix for off pin state,\nbypass caps\nBMS Fan fet
+Text Notes 7600 5850 0    197  ~ 0
+TODO: Spec suffix for off pin state,\nbypass caps\nflyback diode on fan
 Wire Wire Line
 	2200 2050 3550 2050
 Wire Wire Line
@@ -337,7 +337,7 @@ F 3 "" H 4050 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 5900 4050 5700
+	4050 5700 4050 5900
 Wire Wire Line
 	4050 5800 4150 5800
 Wire Wire Line
@@ -345,4 +345,75 @@ Wire Wire Line
 Connection ~ 4050 5800
 NoConn ~ 3550 2550
 NoConn ~ 5050 2550
+$Comp
+L CONN_01X02 J?
+U 1 1 594DEEA6
+P 5150 6650
+F 0 "J?" H 5150 6800 50  0000 C CNN
+F 1 "CONN_01X02" V 5250 6650 50  0000 C CNN
+F 2 "" H 5150 6650 50  0001 C CNN
+F 3 "" H 5150 6650 50  0001 C CNN
+	1    5150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 594DF067
+P 4600 7100
+F 0 "Q?" H 4800 7150 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 4800 7050 50  0000 L CNN
+F 2 "" H 4800 7200 50  0001 C CNN
+F 3 "" H 4600 7100 50  0001 C CNN
+	1    4600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 594DF1C9
+P 3550 7100
+F 0 "R?" V 3630 7100 50  0000 C CNN
+F 1 "100 / .1W / 10% / SMD 0603" V 3700 7150 50  0000 C CNN
+F 2 "" V 3480 7100 50  0001 C CNN
+F 3 "" H 3550 7100 50  0001 C CNN
+	1    3550 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 7100 4400 7100
+Wire Wire Line
+	4750 7300 4700 7300
+$Comp
+L GND #PWR?
+U 1 1 594DF3E0
+P 4700 7600
+F 0 "#PWR?" H 4700 7350 50  0001 C CNN
+F 1 "GND" H 4700 7450 50  0000 C CNN
+F 2 "" H 4700 7600 50  0001 C CNN
+F 3 "" H 4700 7600 50  0001 C CNN
+	1    4700 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 7300 4700 7600
+Wire Wire Line
+	4700 6700 4700 6900
+Wire Wire Line
+	4950 6700 4700 6700
+$Comp
+L +24V #PWR?
+U 1 1 594DF525
+P 4700 6400
+F 0 "#PWR?" H 4700 6250 50  0001 C CNN
+F 1 "+24V" H 4700 6540 50  0000 C CNN
+F 2 "" H 4700 6400 50  0001 C CNN
+F 3 "" H 4700 6400 50  0001 C CNN
+	1    4700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6400 4700 6600
+Wire Wire Line
+	4700 6600 4950 6600
+Wire Wire Line
+	3400 7100 2850 7100
 $EndSCHEMATC

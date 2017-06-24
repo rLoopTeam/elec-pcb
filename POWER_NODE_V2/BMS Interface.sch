@@ -87,7 +87,7 @@ F 3 "" H 4300 4900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7600 5850 0    197  ~ 0
-TODO: Spec suffix for off pin state,\nbypass caps\n
+TODO: Spec suffix for off pin state,\nbypass caps\nflyback diode on fan
 Wire Wire Line
 	2200 2050 3550 2050
 Wire Wire Line
@@ -361,7 +361,7 @@ L Q_NMOS_GSD Q?
 U 1 1 594DF067
 P 4600 7100
 F 0 "Q?" H 4800 7150 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 4800 7050 50  0000 L CNN
+F 1 "FDN337N" H 4800 7050 50  0000 L CNN
 F 2 "" H 4800 7200 50  0001 C CNN
 F 3 "" H 4600 7100 50  0001 C CNN
 	1    4600 7100
