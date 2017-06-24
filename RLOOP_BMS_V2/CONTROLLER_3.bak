@@ -34,7 +34,7 @@ LIBS:BMS Library
 LIBS:rLoop BMS v2-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 10
 Title ""
@@ -46,31 +46,31 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9800 3250 2    60   Input ~ 0
+Text HLabel 9700 3250 2    60   Input ~ 0
 MBAT1
-Text HLabel 9800 3050 2    60   Input ~ 0
+Text HLabel 9700 3050 2    60   Input ~ 0
 MBAT2
-Text HLabel 9800 2850 2    60   Input ~ 0
+Text HLabel 9700 2850 2    60   Input ~ 0
 MBAT3
-Text HLabel 9800 2650 2    60   Input ~ 0
+Text HLabel 9700 2650 2    60   Input ~ 0
 MBAT4
-Text HLabel 9800 2450 2    60   Input ~ 0
+Text HLabel 9700 2450 2    60   Input ~ 0
 MBAT5
-Text HLabel 9800 2250 2    60   Input ~ 0
+Text HLabel 9700 2250 2    60   Input ~ 0
 MBAT6
-Text HLabel 9800 2050 2    60   Input ~ 0
+Text HLabel 9700 2050 2    60   Input ~ 0
 MBAT7
-Text HLabel 9800 3150 2    60   Output ~ 0
+Text HLabel 9700 3150 2    60   Output ~ 0
 DISCHG_GATE_1
-Text HLabel 9800 2950 2    60   Output ~ 0
+Text HLabel 9700 2950 2    60   Output ~ 0
 DISCHG_GATE_2
-Text HLabel 9800 2750 2    60   Output ~ 0
+Text HLabel 9700 2750 2    60   Output ~ 0
 DISCHG_GATE_3
-Text HLabel 9800 2550 2    60   Output ~ 0
+Text HLabel 9700 2550 2    60   Output ~ 0
 DISCHG_GATE_4
-Text HLabel 9800 2350 2    60   Output ~ 0
+Text HLabel 9700 2350 2    60   Output ~ 0
 DISCHG_GATE_5
-Text HLabel 9800 2150 2    60   Output ~ 0
+Text HLabel 9700 2150 2    60   Output ~ 0
 DISCHG_GATE_6
 Text HLabel 5700 5850 3    60   Input ~ 0
 SDI_S
@@ -228,31 +228,31 @@ Wire Wire Line
 Wire Wire Line
 	9550 3700 9550 3900
 Wire Wire Line
-	6550 2050 9800 2050
+	6450 2050 9700 2050
 Wire Wire Line
-	9800 2150 6550 2150
+	9700 2150 6450 2150
 Wire Wire Line
-	6550 2250 9800 2250
+	6450 2250 9700 2250
 Wire Wire Line
-	9800 2350 6550 2350
+	9700 2350 6450 2350
 Wire Wire Line
-	6550 2450 9800 2450
+	6450 2450 9700 2450
 Wire Wire Line
-	6550 2550 9800 2550
+	6450 2550 9700 2550
 Wire Wire Line
-	6550 2650 9800 2650
+	6450 2650 9700 2650
 Wire Wire Line
-	6550 2750 9800 2750
+	6450 2750 9700 2750
 Wire Wire Line
-	6550 2850 9800 2850
+	6450 2850 9700 2850
 Wire Wire Line
-	6550 2950 9800 2950
+	6450 2950 9700 2950
 Wire Wire Line
-	6550 3050 9800 3050
+	6450 3050 9700 3050
 Wire Wire Line
-	6550 3150 9800 3150
+	6450 3150 9700 3150
 Wire Wire Line
-	9800 3250 6550 3250
+	9700 3250 6450 3250
 Wire Wire Line
 	9550 3400 9550 2050
 Connection ~ 9550 2050
