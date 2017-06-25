@@ -87,7 +87,7 @@ F 3 "" H 4300 4900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7600 5850 0    197  ~ 0
-TODO: Spec suffix for off pin state,\nbypass caps\nflyback diode on fan
+TODO: Spec suffix for off pin state,\nbypass caps\nflyback diode on fan\nFAN Driver: NCV8405ADTRKG
 Wire Wire Line
 	2200 2050 3550 2050
 Wire Wire Line
