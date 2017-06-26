@@ -46,4 +46,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 3200 2800 0    60   Input ~ 0
 DC_WATCHDOG
+Text Notes 4850 2750 0    60   ~ 0
+TODO: Connector, ESD protection
 $EndSCHEMATC

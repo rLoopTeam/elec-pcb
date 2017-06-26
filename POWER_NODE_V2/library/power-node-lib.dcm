@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Booster_J1_J3
+D Connector, double row, 02x10, pin header
+K connector
+$ENDCMP
+#
+$CMP Booster_J4_J2
+D Connector, double row, 02x10, pin header
+K connector
+$ENDCMP
+#
 #End Doc Library
