@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -72,9 +72,9 @@ Text HLabel 7950 3200 2    60   Output ~ 0
 RM57_I2C1_SDA
 Text HLabel 7950 3300 2    60   Output ~ 0
 RM57_I2C1_SCL
-Text HLabel 4150 4100 0    60   Output ~ 0
+Text HLabel 6500 4650 0    60   Output ~ 0
 RM57_I2C2_SDA
-Text HLabel 4150 3950 0    60   Output ~ 0
+Text HLabel 6500 4500 0    60   Output ~ 0
 RM57_I2C2_SCL
 Text HLabel 6850 3100 0    60   Output ~ 0
 BMS_FAN
@@ -85,12 +85,12 @@ BMS_ALERT
 $Comp
 L CONN_01X02 J?
 U 1 1 5950A33D
-P 4700 4000
-F 0 "J?" H 4700 4150 50  0000 C CNN
-F 1 "I2C2_J10_8_9" V 4800 4000 50  0000 C CNN
-F 2 "" H 4700 4000 50  0001 C CNN
-F 3 "" H 4700 4000 50  0001 C CNN
-	1    4700 4000
+P 7050 4550
+F 0 "J?" H 7050 4700 50  0000 C CNN
+F 1 "I2C2_J10_8_9" V 7150 4550 50  0000 C CNN
+F 2 "" H 7050 4550 50  0001 C CNN
+F 3 "" H 7050 4550 50  0001 C CNN
+	1    7050 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -128,14 +128,14 @@ Wire Wire Line
 Wire Wire Line
 	3700 3100 4400 3100
 Wire Wire Line
-	4500 3950 4150 3950
+	6850 4500 6500 4500
 Wire Wire Line
-	4150 4100 4500 4100
+	6500 4650 6850 4650
 Wire Wire Line
-	4500 4100 4500 4050
-Text Notes 4450 3900 0    60   ~ 0
+	6850 4650 6850 4600
+Text Notes 6800 4450 0    60   ~ 0
 8
-Text Notes 4450 4250 0    60   ~ 0
+Text Notes 6800 4800 0    60   ~ 0
 9
 Text HLabel 5200 2900 2    60   Input ~ 0
 CHG_I
@@ -171,8 +171,77 @@ Wire Wire Line
 	7950 2800 7500 2800
 Wire Wire Line
 	3700 2900 4400 2900
-Text Notes 4750 1850 0    118  ~ 0
-TODO: Power through header
+Text Notes 3150 1600 0    118  ~ 0
+TODO: CHECK FOR PIN SHARING WITH LAUNCHPAD HARDWARE
 Wire Wire Line
 	3700 3200 4400 3200
+Text Notes 7100 6950 0    197  ~ 0
+RM57 CPU Core
+Text Notes 1050 5950 0    197  ~ 0
+NOTES:\nUse RM57 Launchpad\nRemove JP6 from Launchpad for powering through node.
+NoConn ~ 4400 2500
+NoConn ~ 4400 2600
+NoConn ~ 4400 2800
+NoConn ~ 4400 2700
+NoConn ~ 4400 3000
+NoConn ~ 4400 3300
+NoConn ~ 4400 3400
+NoConn ~ 4900 3400
+NoConn ~ 4900 3300
+$Comp
+L +5V #PWR?
+U 1 1 59521447
+P 6250 2400
+F 0 "#PWR?" H 6250 2250 50  0001 C CNN
+F 1 "+5V" H 6250 2540 50  0000 C CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7000 3000
+NoConn ~ 7000 2900
+NoConn ~ 7000 2800
+NoConn ~ 7000 2700
+NoConn ~ 7000 2600
+NoConn ~ 7000 2500
+NoConn ~ 7500 2500
+NoConn ~ 7500 2600
+NoConn ~ 7500 2900
+$Comp
+L Polyfuse F?
+U 1 1 595214F2
+P 5400 2500
+F 0 "F?" V 5300 2500 50  0000 C CNN
+F 1 "2920L300/15DR - 3A IH / 5A IT" V 5200 2500 50  0000 C CNN
+F 2 "" H 5450 2300 50  0001 L CNN
+F 3 "" H 5400 2500 50  0001 C CNN
+	1    5400 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2500 5250 2500
+Wire Wire Line
+	5550 2500 6250 2500
+Wire Wire Line
+	6250 2500 6250 2400
+$Comp
+L GND #PWR?
+U 1 1 59521ACA
+P 6250 2650
+F 0 "#PWR?" H 6250 2400 50  0001 C CNN
+F 1 "GND" H 6250 2500 50  0000 C CNN
+F 2 "" H 6250 2650 50  0001 C CNN
+F 3 "" H 6250 2650 50  0001 C CNN
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2600 4900 2600
+Wire Wire Line
+	6250 2650 6250 2600
+Text Notes 4950 2100 0    197  ~ 0
+BOOSTER SITE 1
+Text Notes 2900 4600 0    118  ~ 0
+J9 Pins 8,9 on Launchpad
 $EndSCHEMATC

@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -57,7 +57,7 @@ F0 "PSU" 60
 F1 "PSU.sch" 60
 $EndSheet
 $Sheet
-S 2600 900  2200 5350
+S 2600 900  2200 5100
 U 594B2261
 F0 "RM57 Core" 60
 F1 "RM57 Core.sch" 60
@@ -171,9 +171,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 1650 8200 1650
 Wire Wire Line
-	8200 3300 8200 1650
+	8200 1650 8200 3300
 Wire Wire Line
-	7400 3300 8200 3300
+	8200 3300 7400 3300
 Wire Wire Line
 	4800 4850 5650 4850
 Wire Wire Line
@@ -188,4 +188,30 @@ Wire Wire Line
 	5650 5450 4800 5450
 Wire Wire Line
 	4800 5550 5650 5550
+$Sheet
+S 8700 900  2000 900 
+U 5952325B
+F0 "1-Wire Connectors" 60
+F1 "1_Wire Connectors.sch" 60
+F2 "ONE_WIRE_BATT_1_3" I L 8700 1050 60 
+F3 "ONE_WIRE_BATT_4_6" I L 8700 1150 60 
+F4 "ONE_WIRE_BATT_7_9" I L 8700 1250 60 
+F5 "ONE_WIRE_BATT_10_12" I L 8700 1350 60 
+F6 "ONE_WIRE_BATT_13_15" I L 8700 1450 60 
+F7 "ONE_WIRE_BATT_16_18" I L 8700 1550 60 
+$EndSheet
+Wire Wire Line
+	7400 1050 8700 1050
+Wire Wire Line
+	8700 1150 7400 1150
+Wire Wire Line
+	7400 1250 8700 1250
+Wire Wire Line
+	7400 1350 8700 1350
+Wire Wire Line
+	7400 1450 8700 1450
+Wire Wire Line
+	8700 1550 7400 1550
+Text Notes 7100 6950 0    197  ~ 0
+rPod Power Node v2
 $EndSCHEMATC
