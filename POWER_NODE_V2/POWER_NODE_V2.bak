@@ -212,4 +212,6 @@ Wire Wire Line
 	7400 1450 8700 1450
 Wire Wire Line
 	8700 1550 7400 1550
+Text Notes 7100 6950 0    197  ~ 0
+rPod Power Node v2
 $EndSCHEMATC

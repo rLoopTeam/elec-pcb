@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 7100 6950 0    197  ~ 0
-Power Input
+24V Power Input
 $Comp
 L CONN_01X02 J?
 U 1 1 59521C63
