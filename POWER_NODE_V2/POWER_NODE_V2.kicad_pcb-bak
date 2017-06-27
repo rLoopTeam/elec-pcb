@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -622,7 +622,7 @@
   )
 
   (module Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Reflow (layer F.Cu) (tedit 58CC8C08) (tstamp 595206A4)
-    (at 51 57)
+    (at 53 55)
     (descr "Tantalum capacitor, Case T, EIA 3528-12, 3.5x2.8x1.2mm, Reflow soldering footprint")
     (tags "capacitor tantalum smd")
     (path /594B20D8/5951E0AA)
@@ -1544,7 +1544,7 @@
   )
 
   (module "rLoop Footprints:TO-277A_SMPC" (layer F.Cu) (tedit 5951E046) (tstamp 59520765)
-    (at 52 49 180)
+    (at 51 47 180)
     (path /594B20C3/595220C4)
     (fp_text reference D3 (at 0 3.15 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1561,7 +1561,7 @@
   )
 
   (module "rLoop Footprints:TO-277A_SMPC" (layer F.Cu) (tedit 5951E046) (tstamp 5952076C)
-    (at 36 49 180)
+    (at 36 47 180)
     (path /594B20C3/59522A66)
     (fp_text reference D4 (at 0 3.15 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1754,7 +1754,7 @@
   )
 
   (module Diodes_THT:D_DO-201_P15.24mm_Horizontal (layer F.Cu) (tedit 5921392E) (tstamp 595207A0)
-    (at 53 163)
+    (at 53 162)
     (descr "D, DO-201 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf")
     (tags "D DO-201 series Axial Horizontal pin pitch 15.24mm  length 9.53mm diameter 5.21mm")
     (path /594B22A6/595001A3)
@@ -1929,12 +1929,12 @@
   )
 
   (module "rLoop Footprints:2920L300_15DR" (layer F.Cu) (tedit 5951EC5F) (tstamp 595207FE)
-    (at 73 38)
+    (at 108 56 270)
     (path /594B2261/595214F2)
-    (fp_text reference F1 (at 0 3.75) (layer F.SilkS)
+    (fp_text reference F1 (at 0 3.75 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "2920L300/15DR - 3A IH / 5A IT" (at 0 -3.75) (layer F.Fab)
+    (fp_text value "2920L300/15DR - 3A IH / 5A IT" (at 0 -3.75 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.75 1.5) (end 0.75 -1.5) (layer F.SilkS) (width 0.1))
@@ -1944,9 +1944,9 @@
     (fp_line (start -2 -0.75) (end 2 -0.75) (layer F.SilkS) (width 0.1))
     (fp_line (start 2 -0.75) (end 2 0.75) (layer F.SilkS) (width 0.1))
     (fp_line (start 2 0.75) (end -2 0.75) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -5.6 0) (size 2 5.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -5.6 0 270) (size 2 5.3) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
-    (pad 2 smd rect (at 5.6 0) (size 2 5.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 5.6 0 270) (size 2 5.3) (layers F.Cu F.Paste F.Mask)
       (net 29 "Net-(F1-Pad2)"))
   )
 
@@ -2107,7 +2107,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC5) (tstamp 5952082E)
-    (at 70 44)
+    (at 113 44)
     (descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x10 2.54mm double row")
     (path /594B2261/5950AD17)
@@ -2213,7 +2213,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC5) (tstamp 5952084C)
-    (at 113 43)
+    (at 70 44)
     (descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x10 2.54mm double row")
     (path /594B2261/5950B1BF)
@@ -2421,7 +2421,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 59520871)
-    (at 48 122 90)
+    (at 48 120 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /594B22A6/594DB56A)
@@ -2464,7 +2464,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 59520879)
-    (at 34 122 90)
+    (at 34 120 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /594B22A6/594DBCFD)
@@ -2624,7 +2624,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 59520892)
-    (at 35 111 90)
+    (at 35 105 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5952325B/59524575)
@@ -2665,7 +2665,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 59520899)
-    (at 35 107 90)
+    (at 48 111 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5952325B/595245EE)
@@ -2706,7 +2706,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 595208A0)
-    (at 35 95 90)
+    (at 48 99 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5952325B/595246C6)
@@ -2788,7 +2788,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 595208AE)
-    (at 35 103 90)
+    (at 48 105 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5952325B/59524738)
@@ -2829,7 +2829,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD4EC1) (tstamp 595208B5)
-    (at 35 115 90)
+    (at 35 111 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5952325B/5952474E)
@@ -5182,7 +5182,7 @@
   )
 
   (module "rLoop Footprints:RTE24024" (layer F.Cu) (tedit 59520247) (tstamp 59520ABD)
-    (at 44 135 270)
+    (at 44 134 270)
     (path /594B22A6/594FF5F7)
     (fp_text reference U20 (at 0 8.8 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
