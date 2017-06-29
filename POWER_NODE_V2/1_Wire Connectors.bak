@@ -62,7 +62,7 @@ U 1 1 59524575
 P 3050 2400
 F 0 "J16" H 3050 2600 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3050 2400 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 3050 2400 50  0001 C CNN
 F 3 "" H 3050 2400 50  0001 C CNN
 	1    3050 2400
 	1    0    0    -1  
@@ -103,7 +103,7 @@ U 1 1 595245EE
 P 3050 3600
 F 0 "J17" H 3050 3800 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3050 3600 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 3050 3600 50  0001 C CNN
 F 3 "" H 3050 3600 50  0001 C CNN
 	1    3050 3600
 	1    0    0    -1  
@@ -144,7 +144,7 @@ U 1 1 595246C6
 P 5800 2400
 F 0 "J18" H 5800 2600 50  0000 C CNN
 F 1 "CONN_01X03" V 5900 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5800 2400 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 5800 2400 50  0001 C CNN
 F 3 "" H 5800 2400 50  0001 C CNN
 	1    5800 2400
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 595246DC
 P 5800 3600
 F 0 "J19" H 5800 3800 50  0000 C CNN
 F 1 "CONN_01X03" V 5900 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5800 3600 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 5800 3600 50  0001 C CNN
 F 3 "" H 5800 3600 50  0001 C CNN
 	1    5800 3600
 	1    0    0    -1  
@@ -226,7 +226,7 @@ U 1 1 59524738
 P 8850 2400
 F 0 "J20" H 8850 2600 50  0000 C CNN
 F 1 "CONN_01X03" V 8950 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8850 2400 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 8850 2400 50  0001 C CNN
 F 3 "" H 8850 2400 50  0001 C CNN
 	1    8850 2400
 	1    0    0    -1  
@@ -267,7 +267,7 @@ U 1 1 5952474E
 P 8850 3600
 F 0 "J21" H 8850 3800 50  0000 C CNN
 F 1 "CONN_01X03" V 8950 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8850 3600 50  0001 C CNN
+F 2 "rLoop Footprints:3-641215-3_3Pin_Latching_Header" H 8850 3600 50  0001 C CNN
 F 3 "" H 8850 3600 50  0001 C CNN
 	1    8850 3600
 	1    0    0    -1  

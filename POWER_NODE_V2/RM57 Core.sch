@@ -46,41 +46,41 @@ Comment4 ""
 $EndDescr
 Text HLabel 3700 3200 0    60   Output ~ 0
 CHG_RLY
-Text HLabel 5200 2800 2    60   Input ~ 0
+Text HLabel 5200 3100 2    60   Input ~ 0
 CHG_I_REF
 Text HLabel 5200 2700 2    60   Input ~ 0
 CHG_VOLT
 Text HLabel 5200 3000 2    60   Input ~ 0
 BATT_VOLT
-Text HLabel 7950 2800 2    60   Output ~ 0
+Text HLabel 8300 3400 2    60   Output ~ 0
 DC_WATCHDOG
 Text HLabel 3700 3100 0    60   Output ~ 0
 BMS_SCK
-Text HLabel 7950 3000 2    60   Output ~ 0
+Text HLabel 8300 3000 2    60   Output ~ 0
 BMS_MOSI
-Text HLabel 7950 2700 2    60   Output ~ 0
+Text HLabel 8300 2700 2    60   Output ~ 0
 BMS_NCS
-Text HLabel 7950 3100 2    60   Input ~ 0
+Text HLabel 8300 3100 2    60   Input ~ 0
 BMS_MISO
-Text HLabel 6850 3400 0    60   Input ~ 0
+Text HLabel 7200 2700 0    60   Input ~ 0
 BMS_DRDY
 Text HLabel 3700 2900 0    60   Output ~ 0
 BMS_COMMS_EN
-Text HLabel 6850 3200 0    60   Output ~ 0
+Text HLabel 7200 2500 0    60   Output ~ 0
 BMS_CONV
-Text HLabel 7950 3200 2    60   Output ~ 0
+Text HLabel 8300 3200 2    60   Output ~ 0
 RM57_I2C1_SDA
-Text HLabel 7950 3300 2    60   Output ~ 0
+Text HLabel 8300 3300 2    60   Output ~ 0
 RM57_I2C1_SCL
 Text HLabel 6500 4650 0    60   Output ~ 0
 RM57_I2C2_SDA
 Text HLabel 6500 4500 0    60   Output ~ 0
 RM57_I2C2_SCL
-Text HLabel 6850 3100 0    60   Output ~ 0
+Text HLabel 7200 3400 0    60   Output ~ 0
 BMS_FAN
-Text HLabel 6850 3300 0    60   Input ~ 0
+Text HLabel 7200 2600 0    60   Input ~ 0
 BMS_FAULT
-Text HLabel 7950 3400 2    60   Input ~ 0
+Text HLabel 8300 2600 2    60   Input ~ 0
 BMS_ALERT
 $Comp
 L CONN_01X02 J6
@@ -88,7 +88,7 @@ U 1 1 5950A33D
 P 7050 4550
 F 0 "J6" H 7050 4700 50  0000 C CNN
 F 1 "I2C2_J10_8_9" V 7150 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7050 4550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 7050 4550 50  0001 C CNN
 F 3 "" H 7050 4550 50  0001 C CNN
 	1    7050 4550
 	1    0    0    -1  
@@ -99,32 +99,19 @@ U 1 1 5950AD17
 P 4650 2950
 F 0 "J5" H 4650 3500 50  0000 C CNN
 F 1 "Booster_J1_J3" V 4650 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 4650 1750 50  0001 C CNN
+F 2 "rLoop Footprints:Booster1_Header_J1_J3" H 4650 1750 50  0001 C CNN
 F 3 "" H 4650 1750 50  0001 C CNN
 	1    4650 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Booster_J4_J2 J7
-U 1 1 5950B1BF
-P 7250 2950
-F 0 "J7" H 7250 3500 50  0000 C CNN
-F 1 "Booster_J4_J2" V 7250 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 7250 1750 50  0001 C CNN
-F 3 "" H 7250 1750 50  0001 C CNN
-	1    7250 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7950 3300 7500 3300
+	8300 3300 7850 3300
 Wire Wire Line
-	7500 3200 7950 3200
+	8300 3100 7850 3100
 Wire Wire Line
-	7950 3100 7500 3100
+	7850 3000 8300 3000
 Wire Wire Line
-	7500 3000 7950 3000
-Wire Wire Line
-	7950 2700 7500 2700
+	8300 2700 7850 2700
 Wire Wire Line
 	3700 3100 4400 3100
 Wire Wire Line
@@ -137,38 +124,16 @@ Text Notes 6800 4450 0    60   ~ 0
 8
 Text Notes 6800 4800 0    60   ~ 0
 9
-Text HLabel 5200 2900 2    60   Input ~ 0
-CHG_I
-Text HLabel 5200 3100 2    60   Input ~ 0
-BATT_I_REF
 Text HLabel 5200 3200 2    60   Input ~ 0
+CHG_I
+Text HLabel 5200 2900 2    60   Input ~ 0
+BATT_I_REF
+Text HLabel 5200 2800 2    60   Input ~ 0
 BATT_I
-Text Notes 6350 3950 0    79   ~ 0
+Text Notes 6700 3950 0    79   ~ 0
 TODO: BMS GIO may be rearranged\nas needed for layout
 Wire Wire Line
-	6850 3100 7000 3100
-Wire Wire Line
-	7000 3200 6850 3200
-Wire Wire Line
-	6850 3300 7000 3300
-Wire Wire Line
-	7000 3400 6850 3400
-Wire Wire Line
-	7500 3400 7950 3400
-Wire Wire Line
-	4900 3200 5200 3200
-Wire Wire Line
-	5200 3100 4900 3100
-Wire Wire Line
 	4900 3000 5200 3000
-Wire Wire Line
-	5200 2900 4900 2900
-Wire Wire Line
-	4900 2800 5200 2800
-Wire Wire Line
-	5200 2700 4900 2700
-Wire Wire Line
-	7950 2800 7500 2800
 Wire Wire Line
 	3700 2900 4400 2900
 Text Notes 3150 1600 0    118  ~ 0
@@ -199,15 +164,10 @@ F 3 "" H 6250 2400 50  0001 C CNN
 	1    6250 2400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7000 3000
-NoConn ~ 7000 2900
-NoConn ~ 7000 2800
-NoConn ~ 7000 2700
-NoConn ~ 7000 2600
-NoConn ~ 7000 2500
-NoConn ~ 7500 2500
-NoConn ~ 7500 2600
-NoConn ~ 7500 2900
+NoConn ~ 7350 3000
+NoConn ~ 7350 2900
+NoConn ~ 7850 2500
+NoConn ~ 7850 2900
 $Comp
 L Polyfuse F1
 U 1 1 595214F2
@@ -244,4 +204,44 @@ Text Notes 4950 2100 0    197  ~ 0
 BOOSTER SITE 1
 Text Notes 2900 4600 0    118  ~ 0
 J9 Pins 8,9 on Launchpad
+Wire Wire Line
+	5200 2700 4900 2700
+Wire Wire Line
+	5200 2800 4900 2800
+Wire Wire Line
+	4900 2900 5200 2900
+Wire Wire Line
+	5200 3100 4900 3100
+Wire Wire Line
+	4900 3200 5200 3200
+Wire Wire Line
+	7850 3200 8300 3200
+Wire Wire Line
+	7850 2600 8300 2600
+Wire Wire Line
+	7200 2500 7350 2500
+Wire Wire Line
+	7350 2600 7200 2600
+Wire Wire Line
+	7200 2700 7350 2700
+NoConn ~ 7850 2800
+Wire Wire Line
+	7850 3400 8300 3400
+NoConn ~ 7350 3200
+NoConn ~ 7350 3300
+$Comp
+L Booster_J4_J2 J7
+U 1 1 5950B1BF
+P 7600 2950
+F 0 "J7" H 7600 3500 50  0000 C CNN
+F 1 "Booster_J4_J2" V 7600 2950 50  0000 C CNN
+F 2 "rLoop Footprints:Booster1_J4_J2" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+	1    7600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3400 7350 3400
+NoConn ~ 7350 3100
+NoConn ~ 7350 2800
 $EndSCHEMATC

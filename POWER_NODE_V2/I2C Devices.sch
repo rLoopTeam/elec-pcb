@@ -44,13 +44,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1450 1200 0    60   Input ~ 0
+Text HLabel 1650 1100 0    60   Input ~ 0
 I2C1_SCL
-Text HLabel 1450 1100 0    60   Input ~ 0
+Text HLabel 1650 1200 0    60   Input ~ 0
 I2C1_SDA
-Text HLabel 6100 1200 0    60   Input ~ 0
+Text HLabel 6200 1200 0    60   Input ~ 0
 I2C2_SCL
-Text HLabel 6100 1100 0    60   Input ~ 0
+Text HLabel 6200 1100 0    60   Input ~ 0
 I2C2_SDA
 $Comp
 L DS2482S-100+T&R U3
@@ -198,12 +198,12 @@ $EndComp
 $Comp
 L +3.3V #PWR034
 U 1 1 594C27E9
-P 3050 2350
-F 0 "#PWR034" H 3050 2200 50  0001 C CNN
-F 1 "+3.3V" H 3200 2400 50  0000 C CNN
-F 2 "" H 3050 2350 50  0001 C CNN
-F 3 "" H 3050 2350 50  0001 C CNN
-	1    3050 2350
+P 3050 2300
+F 0 "#PWR034" H 3050 2150 50  0001 C CNN
+F 1 "+3.3V" H 3200 2350 50  0000 C CNN
+F 2 "" H 3050 2300 50  0001 C CNN
+F 3 "" H 3050 2300 50  0001 C CNN
+	1    3050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -231,12 +231,12 @@ $EndComp
 $Comp
 L +3.3V #PWR037
 U 1 1 594C2884
-P 7550 3750
-F 0 "#PWR037" H 7550 3600 50  0001 C CNN
-F 1 "+3.3V" H 7700 3800 50  0000 C CNN
-F 2 "" H 7550 3750 50  0001 C CNN
-F 3 "" H 7550 3750 50  0001 C CNN
-	1    7550 3750
+P 7700 3750
+F 0 "#PWR037" H 7700 3600 50  0001 C CNN
+F 1 "+3.3V" H 7850 3800 50  0000 C CNN
+F 2 "" H 7700 3750 50  0001 C CNN
+F 3 "" H 7700 3750 50  0001 C CNN
+	1    7700 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -438,15 +438,9 @@ F 3 "" H 2300 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1100 2350 1100
-Wire Wire Line
-	1450 1200 2350 1200
-Wire Wire Line
 	1950 2600 2350 2600
-Connection ~ 1950 1200
 Wire Wire Line
 	1850 2700 2350 2700
-Connection ~ 1850 1100
 Wire Wire Line
 	1950 4050 2350 4050
 Connection ~ 1950 2600
@@ -691,12 +685,12 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR064
 U 1 1 594C4DD4
-P 8600 3750
-F 0 "#PWR064" H 8600 3600 50  0001 C CNN
-F 1 "+3.3V" H 8750 3800 50  0000 C CNN
-F 2 "" H 8600 3750 50  0001 C CNN
-F 3 "" H 8600 3750 50  0001 C CNN
-	1    8600 3750
+P 8750 3750
+F 0 "#PWR064" H 8750 3600 50  0001 C CNN
+F 1 "+3.3V" H 8900 3800 50  0000 C CNN
+F 2 "" H 8750 3750 50  0001 C CNN
+F 3 "" H 8750 3750 50  0001 C CNN
+	1    8750 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -942,11 +936,7 @@ F 3 "" H 3050 7800 50  0001 C CNN
 	1    3050 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 6950 2350 6950
 Connection ~ 1950 5650
-Wire Wire Line
-	1850 7150 2350 7150
 Connection ~ 1850 5550
 NoConn ~ 2350 7050
 $Comp
@@ -968,13 +958,9 @@ Wire Wire Line
 	2300 7350 2300 7450
 Connection ~ 2300 7450
 Wire Wire Line
-	1850 1100 1850 7150
-Wire Wire Line
 	5550 1350 5700 1350
 Wire Wire Line
 	5700 1750 5500 1750
-Wire Wire Line
-	1950 1200 1950 6950
 $Comp
 L C C14
 U 1 1 59517B69
@@ -1149,10 +1135,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 1600 7000 1600
 Wire Wire Line
-	6600 1100 7000 1100
-Wire Wire Line
-	7000 1200 6500 1200
-Wire Wire Line
 	7000 2600 6600 2600
 Wire Wire Line
 	6500 2700 7000 2700
@@ -1306,4 +1288,22 @@ F 3 "" H 9200 5800 50  0001 C CNN
 $EndComp
 Text Notes 6400 7200 0    197  ~ 0
 I2C Devices
+Wire Wire Line
+	1950 1100 1950 7150
+Connection ~ 1950 1100
+Wire Wire Line
+	1950 7150 2350 7150
+Wire Wire Line
+	1850 6950 2350 6950
+Wire Wire Line
+	1850 1200 1850 6950
+Connection ~ 1850 1200
+Wire Wire Line
+	1650 1100 2350 1100
+Wire Wire Line
+	2350 1200 1650 1200
+Wire Wire Line
+	6200 1100 7000 1100
+Wire Wire Line
+	6200 1200 7000 1200
 $EndSCHEMATC
