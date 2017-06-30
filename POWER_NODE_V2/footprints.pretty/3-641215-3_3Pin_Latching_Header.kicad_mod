@@ -15,4 +15,9 @@
   (pad 2 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.54 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -2.54 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3d-models/3-641215-3.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

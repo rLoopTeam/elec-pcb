@@ -40,9 +40,9 @@
   (pad 10 thru_hole oval (at 0 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 11 thru_hole oval (at 0 25.4) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 12 thru_hole oval (at 0 27.94) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x12_Pitch2.54mm.wrl
-    (at (xyz 0 -0.55 0))
+  (model ${KIPRJMOD}/3d-models/R-745.0P.wrl
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 270))
+    (rotate (xyz 0 0 0))
   )
 )
