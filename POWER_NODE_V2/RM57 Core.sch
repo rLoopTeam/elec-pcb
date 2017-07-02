@@ -98,8 +98,8 @@ L Booster_J1_J3 J5
 U 1 1 5950AD17
 P 4650 2950
 F 0 "J5" H 4650 3500 50  0000 C CNN
-F 1 "Booster_J1_J3" V 4650 2950 50  0000 C CNN
-F 2 "rLoop Footprints:Booster1_Header_J1_J3" H 4650 1750 50  0001 C CNN
+F 1 "5-146130-9" V 4650 2950 50  0000 C CNN
+F 2 "rLoop_Footprints:Booster1_Header_J1_J3" H 4650 1750 50  0001 C CNN
 F 3 "" H 4650 1750 50  0001 C CNN
 	1    4650 2950
 	1    0    0    -1  
@@ -130,8 +130,6 @@ Text HLabel 5200 2900 2    60   Input ~ 0
 BATT_I_REF
 Text HLabel 5200 2800 2    60   Input ~ 0
 BATT_I
-Text Notes 6700 3950 0    79   ~ 0
-TODO: BMS GIO may be rearranged\nas needed for layout
 Wire Wire Line
 	4900 3000 5200 3000
 Wire Wire Line
@@ -234,8 +232,8 @@ L Booster_J4_J2 J7
 U 1 1 5950B1BF
 P 7600 2950
 F 0 "J7" H 7600 3500 50  0000 C CNN
-F 1 "Booster_J4_J2" V 7600 2950 50  0000 C CNN
-F 2 "rLoop Footprints:Booster1_J4_J2" H 7600 1750 50  0001 C CNN
+F 1 "5-146130-9" V 7600 2950 50  0000 C CNN
+F 2 "rLoop_Footprints:Booster1_J4_J2" H 7600 1750 50  0001 C CNN
 F 3 "" H 7600 1750 50  0001 C CNN
 	1    7600 2950
 	1    0    0    -1  
@@ -244,4 +242,8 @@ Wire Wire Line
 	7200 3400 7350 3400
 NoConn ~ 7350 3100
 NoConn ~ 7350 2800
+Text Notes 4450 3600 0    60   ~ 0
+J1 & J3
+Text Notes 7400 3600 0    60   ~ 0
+J2 & J4
 $EndSCHEMATC
