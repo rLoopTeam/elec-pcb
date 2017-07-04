@@ -1,5 +1,5 @@
-(module Power_Node_Mounting_Holes (layer F.Cu) (tedit 59587BB2)
-  (fp_text reference Power_Node_Mounting_Holes (at 0 8.7) (layer F.SilkS)
+(module Power_Node_Mounting_Holes locked (layer F.Cu) (tedit 5959D79C)
+  (fp_text reference Power_Node_Mounting_Holes (at 0 8.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Power_Node_Mounting_Holes (at 0 -8.1) (layer F.Fab)

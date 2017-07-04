@@ -1,5 +1,5 @@
-(module BMS_Outline (layer F.Cu) (tedit 59520F04)
-  (fp_text reference REF** (at 0 14) (layer F.SilkS)
+(module BMS_Outline locked (layer F.Cu) (tedit 5959D869)
+  (fp_text reference BMS_Outline (at 0 14) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value BMS_Outline (at 0 -14) (layer F.Fab)
