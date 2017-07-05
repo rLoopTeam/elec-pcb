@@ -473,9 +473,9 @@ Wire Wire Line
 Wire Wire Line
 	6250 6250 6150 6250
 Wire Wire Line
-	6150 6950 6150 6250
+	6150 6250 6150 6950
 Wire Wire Line
-	5450 6950 6150 6950
+	6150 6950 5450 6950
 Wire Wire Line
 	5450 7150 5550 7150
 Wire Wire Line

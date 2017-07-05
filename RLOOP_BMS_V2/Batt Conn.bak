@@ -46,57 +46,67 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5100 2700 0    60   Output ~ 0
+Text HLabel 5700 2700 0    60   Output ~ 0
 Cell_0
-Text HLabel 5100 2800 0    60   Output ~ 0
+Text HLabel 5700 2800 0    60   Output ~ 0
 Cell_1
-Text HLabel 5100 2900 0    60   Output ~ 0
+Text HLabel 5700 2900 0    60   Output ~ 0
 Cell_2
-Text HLabel 5100 3000 0    60   Output ~ 0
+Text HLabel 5700 3000 0    60   Output ~ 0
 Cell_3
-Text HLabel 5100 3100 0    60   Output ~ 0
+Text HLabel 5700 3100 0    60   Output ~ 0
 Cell_4
-Text HLabel 5100 3200 0    60   Output ~ 0
+Text HLabel 5700 3200 0    60   Output ~ 0
 Cell_5
-Text HLabel 5100 3300 0    60   Output ~ 0
+Text HLabel 5700 3300 0    60   Output ~ 0
 Cell_6
-Text HLabel 5100 3400 0    60   Output ~ 0
+Text HLabel 5700 3400 0    60   Output ~ 0
 Cell_7
-Text HLabel 5100 3500 0    60   Output ~ 0
+Text HLabel 5700 3500 0    60   Output ~ 0
 Cell_8
-Text HLabel 5100 3600 0    60   Output ~ 0
+Text HLabel 5700 3600 0    60   Output ~ 0
 Cell_9
-Text HLabel 5100 3700 0    60   Output ~ 0
+Text HLabel 5700 3850 0    60   Output ~ 0
 Cell_10
-Text HLabel 5100 3800 0    60   Output ~ 0
+Text HLabel 5700 3950 0    60   Output ~ 0
 Cell_11
-Text HLabel 5100 3900 0    60   Output ~ 0
+Text HLabel 5700 4050 0    60   Output ~ 0
 Cell_12
-Text HLabel 5100 4000 0    60   Output ~ 0
+Text HLabel 5700 4150 0    60   Output ~ 0
 Cell_13
-Text HLabel 5100 4100 0    60   Output ~ 0
+Text HLabel 5700 4250 0    60   Output ~ 0
 Cell_14
-Text HLabel 5100 4200 0    60   Output ~ 0
+Text HLabel 5700 4350 0    60   Output ~ 0
 Cell_15
-Text HLabel 5100 4300 0    60   Output ~ 0
+Text HLabel 5700 4450 0    60   Output ~ 0
 Cell_16
-Text HLabel 5100 4400 0    60   Output ~ 0
+Text HLabel 5700 4550 0    60   Output ~ 0
 Cell_17
-Text HLabel 5100 4500 0    60   Output ~ 0
+Text HLabel 5700 4650 0    60   Output ~ 0
 Cell_18
 Text Notes 4400 2450 0    60   ~ 12
 Cell 0 is the negative terminal of the battery pack.
+NoConn ~ 5700 4750
 $Comp
-L 2-640387-0 J2
-U 1 1 5919474D
-P 5300 3650
-F 0 "J2" V 5500 4000 60  0000 C CNN
-F 1 "2-640387-0" V 5500 3150 60  0000 C CNN
-F 2 "rLoop_Footprints:TE_2-640387-0" H 5200 3150 60  0001 C CNN
-F 3 "" H 5200 3150 60  0001 C CNN
-F 4 "www.mouser.com/somethingeroher" V 5300 3650 60  0001 C CNN "Source"
-	1    5300 3650
-	1    0    0    1   
+L CONN_01X10 J2
+U 1 1 595C3AE4
+P 5900 3150
+F 0 "J2" H 5900 3700 50  0000 C CNN
+F 1 "1-640445-0" V 6000 3150 50  0000 C CNN
+F 2 "rLoop_Footprints:1-640445-0" H 5900 3150 50  0001 C CNN
+F 3 "" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	1    0    0    -1  
 $EndComp
-NoConn ~ 5100 4600
+$Comp
+L CONN_01X10 J4
+U 1 1 595C3B19
+P 5900 4300
+F 0 "J4" H 5900 4850 50  0000 C CNN
+F 1 "1-640445-0" V 6000 4300 50  0000 C CNN
+F 2 "rLoop_Footprints:1-640445-0" H 5900 4300 50  0001 C CNN
+F 3 "" H 5900 4300 50  0001 C CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

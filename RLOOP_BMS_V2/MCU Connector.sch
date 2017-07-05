@@ -86,38 +86,44 @@ ALERT_H
 Text HLabel 4600 3300 0    60   Output ~ 0
 DRDY_H
 Wire Wire Line
-	3300 3700 3300 2700
-Wire Wire Line
-	3300 2700 4150 2700
-Wire Wire Line
-	6800 3700 5100 3700
+	5100 3700 6800 3700
 Wire Wire Line
 	3850 3400 4600 3400
 $Comp
 L CONN_01X03 J3
 U 1 1 594AAEB6
-P 4250 2500
-F 0 "J3" H 4250 2700 50  0000 C CNN
-F 1 "TE 2-292161-3" V 4350 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 4250 2500 50  0001 C CNN
-F 3 "" H 4250 2500 50  0001 C CNN
-	1    4250 2500
-	0    -1   -1   0   
+P 4850 4350
+F 0 "J3" H 4850 4550 50  0000 C CNN
+F 1 "TE 3-641215-3" V 4950 4350 50  0000 C CNN
+F 2 "rLoop_Footprints:3-641215-3_3Pin_Latching_Header" H 4850 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 2700 4250 2950
-Wire Wire Line
-	4250 2950 4050 2950
-Wire Wire Line
-	4050 2950 4050 3400
 Connection ~ 4050 3400
 Wire Wire Line
-	4350 2700 6300 2700
-Wire Wire Line
-	6300 2700 6300 3700
+	6300 3700 6300 4050
 Connection ~ 6300 3700
 Text Notes 3350 3700 0    60   ~ 0
 1-Wire
 Text Notes 3500 2350 0    60   ~ 0
 Temp Sensor Header for heat-sinks
+Wire Wire Line
+	6300 4050 4950 4050
+Wire Wire Line
+	4950 4050 4950 4150
+Wire Wire Line
+	3300 3700 3300 3950
+Wire Wire Line
+	3300 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 4150
+Wire Wire Line
+	4050 3400 4050 3100
+Wire Wire Line
+	4050 3100 3100 3100
+Wire Wire Line
+	3100 3100 3100 4150
+Wire Wire Line
+	3100 4150 4750 4150
 $EndSCHEMATC
