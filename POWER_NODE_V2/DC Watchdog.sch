@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:POWER_NODE_V2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -63,10 +64,10 @@ Wire Wire Line
 	4300 3750 4300 3450
 Connection ~ 4300 3450
 $Comp
-L GND #PWR095
+L GND #PWR95
 U 1 1 5952668C
 P 4300 4300
-F 0 "#PWR095" H 4300 4050 50  0001 C CNN
+F 0 "#PWR95" H 4300 4050 50  0001 C CNN
 F 1 "GND" H 4300 4150 50  0000 C CNN
 F 2 "" H 4300 4300 50  0001 C CNN
 F 3 "" H 4300 4300 50  0001 C CNN

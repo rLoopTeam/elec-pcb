@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:POWER_NODE_V2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -547,7 +548,7 @@ Text Notes 8950 2900 0    60   ~ 0
 Text Notes 6500 7150 0    197  ~ 0
 Power Supplies
 $Comp
-L LED D12
+L LED-RESCUE-POWER_NODE_V2 D12
 U 1 1 5951EBFD
 P 6000 6500
 F 0 "D12" V 5950 6350 50  0000 C CNN
@@ -558,7 +559,7 @@ F 3 "" H 6000 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D11
+L LED-RESCUE-POWER_NODE_V2 D11
 U 1 1 5951EB65
 P 4500 6500
 F 0 "D11" V 4450 6350 50  0000 C CNN
@@ -569,7 +570,7 @@ F 3 "" H 4500 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D10
+L LED-RESCUE-POWER_NODE_V2 D10
 U 1 1 5951EAEA
 P 3000 6500
 F 0 "D10" V 2950 6350 50  0000 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:POWER_NODE_V2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -57,7 +58,7 @@ F0 "PSU" 60
 F1 "PSU.sch" 60
 $EndSheet
 $Sheet
-S 2600 900  2200 5100
+S 2600 900  2200 5600
 U 594B2261
 F0 "RM57 Core" 60
 F1 "RM57 Core.sch" 60
@@ -83,6 +84,7 @@ F20 "CHG_I_REF" I R 4800 5050 60
 F21 "CHG_I" I R 4800 5150 60 
 F22 "BATT_I_REF" I R 4800 5450 60 
 F23 "BATT_I" I R 4800 5550 60 
+F24 "COOLING_SOLENOID" O R 4800 6350 60 
 $EndSheet
 $Sheet
 S 5650 900  1750 900 
@@ -214,4 +216,13 @@ Wire Wire Line
 	8700 1550 7400 1550
 Text Notes 7100 6950 0    197  ~ 0
 rPod Power Node v2
+$Sheet
+S 5650 6150 1800 350 
+U 5965B6EF
+F0 "Cooling_Solenoid" 60
+F1 "Cooling Solenoid.sch" 60
+F2 "COOLING_SOLENOID" I L 5650 6350 60 
+$EndSheet
+Wire Wire Line
+	4800 6350 5650 6350
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:POWER_NODE_V2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -1023,7 +1024,7 @@ Wire Wire Line
 	6950 4850 6950 4800
 Connection ~ 6950 5700
 $Comp
-L LED D8
+L LED-RESCUE-POWER_NODE_V2 D8
 U 1 1 5950058E
 P 8950 4900
 F 0 "D8" V 8850 5150 50  0000 C CNN
