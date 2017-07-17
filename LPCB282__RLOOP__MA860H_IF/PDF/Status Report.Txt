@@ -1,0 +1,10 @@
+Output: LPCB282R0__BOM_GROUPED
+Type  : BOM
+From  : Project [LPCB282__RLOOP__MA860H_IF.PrjPCB]
+   Generated File[LPCB282R0__BOM_GROUPED.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:06:30 PM On 2017-07-14

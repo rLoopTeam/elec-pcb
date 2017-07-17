@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:45:16 PM On 2017-07-14
+
+Output: LPCB280R0__FMEDA
+Type  : BOM
+From  : Project [LPCB280__RLOOP__GCU.PrjPCB]
+   Generated File[LPCB280R0__FMEDA.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:45:22 PM On 2017-07-14
