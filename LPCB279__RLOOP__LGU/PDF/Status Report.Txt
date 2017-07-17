@@ -1,0 +1,10 @@
+Output: LPCB279R0__BOM_GROUPED
+Type  : BOM
+From  : Project [LPCB279__RLOOP__LGU.PrjPCB]
+   Generated File[LPCB279R0__BOM_GROUPED.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:55:28 PM On 2017-07-14

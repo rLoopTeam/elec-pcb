@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:53:40 PM On 2017-07-14
+
+Output: LPCB279R0__ASSEMBLY
+Type  : BOM
+From  : Project [LPCB279__RLOOP__LGU.PrjPCB]
+   Generated File[LPCB279R0__ASSEMBLY.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:53:41 PM On 2017-07-14

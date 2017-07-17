@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 3:04:47 PM On 2017-07-14
+
+Output: LPCB282R0__ASSEMBLY
+Type  : BOM
+From  : Project [LPCB282__RLOOP__MA860H_IF.PrjPCB]
+   Generated File[LPCB282R0__ASSEMBLY.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:04:50 PM On 2017-07-14

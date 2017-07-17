@@ -1,0 +1,21 @@
+Field=Designator~String~Designator~100|Field=LDL_NUMBER~String~LDL_NUMBER~100|Field=Description~String~Description~100|Field=Quantity~Integer~Quantity~100|Field=Layer~String~Layer~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LPCB278__RLOOP__HE_THERM.PrjPCB|ReportField=ProjectFullPath~D:\SIL3\DESIGN\RLOOP\ALTIUM\LPCB278__RLOOP__HE_THERM\PROJECT\LPCB278__RLOOP__HE_THERM.PrjPCB|ReportField=Title~LPCB278R0__BOM_GROUPED For Project [LPCB278__RLOOP__HE_THERM.PrjPCB] (PCB Document : LPCB278R0.PcbDoc)|ReportField=TotalQuantity~61|ReportField=ReportTime~3:10:18 PM|ReportField=ReportDate~2017-07-12|ReportField=ReportDateTime~2017-07-12 3:10:18 PM|ReportField=OutputName~LPCB278R0__BOM_GROUPED|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Factory 10|ReportField=Address2~9-13 Dingley Avenue, Dandeong, VICTORIA 3175, AUSTRALIA|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~2017-07-12|ReportField=CurrentTime~3:09:35 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\SIL3\DESIGN\RLOOP\ALTIUM\LPCB278__RLOOP__HE_THERM\SCHEMATICS\LPCB278 - TOP.SchDoc|ReportField=DocumentName~LPCB278 - TOP.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=Lockie__LDL~LPCB278|ReportField=Lockie__PCB_ASSEMBLY~PCB Assembly|ReportField=Lockie__PCB_DESCRIPTION~HE Thermal Module|ReportField=Lockie__PCB_SUB_ASSEMBLY~PCB Sub Component|ReportField=ModifiedDate~2017-07-12|ReportField=Organization~|ReportField=ProjectName~LPCB278__RLOOP__HE_THERM.PrjPCB|ReportField=Revision~1|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~5|ReportField=Time~|ReportField=Title~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~LPCB278__RLOOP__HE_THERM.PrjPCB|ReportField=DataSourceFullPath~D:\SIL3\DESIGN\RLOOP\ALTIUM\LPCB278__RLOOP__HE_THERM\PROJECT\LPCB278__RLOOP__HE_THERM.PrjPCB|ReportField=PCBDataSourceFileName~LPCB278R0.PcbDoc|ReportField=PCBDataSourceFullPath~D:\SIL3\DESIGN\RLOOP\ALTIUM\LPCB278__RLOOP__HE_THERM\PCB\LPCB278R0.PcbDoc
+C1, C2, C8, C11, C13, C14|LCA016|Capacitor, Ceramic Chip, 100nF (0.1uF), 50V, 5%, SMD 0603 [LCA016]|6|Top
+C3, C4|LCA070|Capacitor, Ceramic Chip, 1uF, 10V, SMD 0603 [LCA070]|2|Top
+C6, C9, C15|LCA144|Capacitor, Ceramic Chip, 10uF, 50V, X5R, 10%, SMD 1206 [LCA144]|3|Top
+C7, C10, C12, C16|LCA098|Capacitor, Ceramic Chip, 1uF, 50V, SMD 0805 [LCA098]|4|Top
+CE1|LCA071|Capacitor, Aluminum Electrolytic, 330uF, 35V, 20%, SMD (10mm x 10mm) [LCA071]|1|Top
+CN1, CN2, CN4, CN5, CN6, CN7|LCN370|Connector, Pluggable Terminal Block, 5.08mm, 3 Way, PTH|6|Top
+CN3|LCN369|Connector, Pluggable Terminal Block, 5.08mm, 2 Way, PTH|1|Top
+D1, D2|LIC621|Diode, ESD Protecion, 10pF, 9V Breakdown, SMD 0402 [LIC621]|2|Top
+D3|LIC189|Diode, General Purpose Rectifier, 3A, 200V, SMD DO-214AB [LIC189]|1|Top
+D4, D5, D6, D7|LIC006|Diode, Small Signal, 0.2A, 85V, SMD SOT-23 [LIC006]|4|Top
+IC1, IC2|LIC573|IC, I2C to 1 Wire Bridge, SMD SOIC8|2|Top
+IC3, IC5, IC6, IC7, IC10, IC11|LIC016|LED, SMD, 0805 Green [LIC016]|6|Top
+IC4|LIC233|IC, Voltage Regulator, 400mA, 3.3V LDO, SMD DPAK [LIC233]|1|Top
+IC8, IC9, IC12, IC13|LIC292|IC, Relay Driver, 28V Industrial, SMD SOT23 [LIC292]|4|Top
+PW1|LPW033||1|Top
+Q1, Q2|LIC215|FET, P Channel, Logic Level, SMD SOT23 [LIC215]|2|Top
+R1, R2|LRE058|Resistor, Ceramic Chip, 4K7, 0.1W, 1%, SMD 0603 [LRE058]|2|Top
+R3, R4, R11|LRE026|Resistor, Ceramic Chip, 0R, 0.1W, SMD 0603 [LRE026]|3|Top
+R5, R6, R7, R8, R9, R10|LRE027|Resistor, Ceramic Chip, 2.2K, 0.1W, 1%, SMD 0603 [LRE027]|6|Top
+RLY1, RLY2, RLY3, RLY4|LSW020|Relay, DPDT, Non Latching, 24VDC Coil, 1A Rating, PTH|4|Top
