@@ -1,0 +1,823 @@
+EESchema Schematic File Version 2
+LIBS:rLoop BMS v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Oscillators
+LIBS:BMS Library
+LIBS:rLoop BMS v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 6 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 9650 3950 2    60   Input ~ 0
+MBAT1
+Text HLabel 9650 3750 2    60   Input ~ 0
+MBAT2
+Text HLabel 9650 3550 2    60   Input ~ 0
+MBAT3
+Text HLabel 9650 3350 2    60   Input ~ 0
+MBAT4
+Text HLabel 9650 3150 2    60   Input ~ 0
+MBAT5
+Text HLabel 9650 2950 2    60   Input ~ 0
+MBAT6
+Text HLabel 9650 2750 2    60   Input ~ 0
+MBAT7
+Text HLabel 9650 3850 2    60   Output ~ 0
+DISCHG_GATE_1
+Text HLabel 9650 3650 2    60   Output ~ 0
+DISCHG_GATE_2
+Text HLabel 9650 3450 2    60   Output ~ 0
+DISCHG_GATE_3
+Text HLabel 9650 3250 2    60   Output ~ 0
+DISCHG_GATE_4
+Text HLabel 9650 3050 2    60   Output ~ 0
+DISCHG_GATE_5
+Text HLabel 9650 2850 2    60   Output ~ 0
+DISCHG_GATE_6
+Text HLabel 4600 5700 3    60   Output ~ 0
+CS_H
+Text HLabel 4700 5700 3    60   Input ~ 0
+SDI_H
+Text HLabel 4800 5700 3    60   Input ~ 0
+SDO_H
+Text HLabel 4900 5700 3    60   Input ~ 0
+SCLK_H
+Text HLabel 4650 6850 0    60   Input ~ 0
+VDDHV
+Text HLabel 4650 7100 0    60   Input ~ 0
+GND
+Text GLabel 5000 6850 2    60   Input ~ 0
+VDDHV_1
+Text GLabel 5000 7100 2    60   Input ~ 0
+GND_1
+$Comp
+L C C21
+U 1 1 5917E364
+P 9600 4250
+F 0 "C21" H 9350 4250 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 9750 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9638 4100 50  0001 C CNN
+F 3 "" H 9600 4250 50  0001 C CNN
+	1    9600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 5917E366
+P 9150 4250
+F 0 "C22" H 8900 4250 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 9300 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9188 4100 50  0001 C CNN
+F 3 "" H 9150 4250 50  0001 C CNN
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 59101AC2
+P 8700 4300
+F 0 "C23" H 8450 4300 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 8850 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8738 4150 50  0001 C CNN
+F 3 "" H 8700 4300 50  0001 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 5917E36A
+P 8250 4300
+F 0 "C24" H 8000 4300 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 8400 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8288 4150 50  0001 C CNN
+F 3 "" H 8250 4300 50  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 59101B02
+P 7750 4300
+F 0 "C25" H 7500 4300 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 7950 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7788 4150 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 59101B2D
+P 7300 4300
+F 0 "C26" H 7050 4300 50  0000 L CNN
+F 1 "100 nF / 50V/ 10% / SMD 0603" V 7450 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7338 4150 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 3500 0    60   Input ~ 0
+GND_1
+Text GLabel 7850 2550 2    60   Input ~ 0
+VDDHV_1
+Text HLabel 7650 1150 2    60   Output ~ 0
+SCLK_N
+Text HLabel 7650 550  2    60   Output ~ 0
+CS_N
+Text HLabel 7650 800  2    60   Output ~ 0
+SDI_N
+Text HLabel 9150 1050 2    60   Input ~ 0
+SDO_N
+Text GLabel 12250 2950 0    60   Input ~ 0
+GND_1
+Text GLabel 12250 3200 0    60   Input ~ 0
+VDDHV_1
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 591903A2
+P 12500 2650
+F 0 "#FLG05" H 12500 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 12500 2800 50  0000 C CNN
+F 2 "" H 12500 2650 50  0001 C CNN
+F 3 "" H 12500 2650 50  0001 C CNN
+	1    12500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 591903DE
+P 13000 2650
+F 0 "#FLG06" H 13000 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 13000 2800 50  0000 C CNN
+F 2 "" H 13000 2650 50  0001 C CNN
+F 3 "" H 13000 2650 50  0001 C CNN
+	1    13000 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2950 0    60   Input ~ 0
+GND_1
+Text GLabel 6900 4850 3    60   Input ~ 0
+GND_1
+Text GLabel 7300 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 7750 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 8250 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 8700 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 9150 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 9600 4600 3    60   Input ~ 0
+GND_1
+Text GLabel 3400 3300 0    60   Input ~ 0
+5V_1
+Text GLabel 4050 4150 0    60   Input ~ 0
+GND_1
+NoConn ~ 4200 3200
+Text GLabel 6300 5200 2    60   Input ~ 0
+GND_1
+$Comp
+L R R109
+U 1 1 5930BD82
+P 4100 4900
+F 0 "R109" H 3900 4800 50  0000 C CNN
+F 1 "100K0 / 0.063W / 5% / SMD 0603" H 3300 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4030 4900 50  0001 C CNN
+F 3 "" H 4100 4900 50  0001 C CNN
+	1    4100 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 2300 2    60   Input ~ 0
+GND_1
+Text GLabel 4100 5300 3    60   Input ~ 0
+5V_1
+$Comp
+L C C5
+U 1 1 5930CD79
+P 6600 4550
+F 0 "C5" H 6625 4650 50  0000 L CNN
+F 1 "10 uF / 10V/ 10% / SMD 0603" V 6750 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6638 4400 50  0001 C CNN
+F 3 "" H 6600 4550 50  0001 C CNN
+	1    6600 4550
+	1    0    0    1   
+$EndComp
+Text GLabel 4500 5700 3    60   Input ~ 0
+GND_1
+$Comp
+L bq76PL536A_HTQFP-RESCUE-rLoop_BMS_v2 U3
+U 1 1 592C9A06
+P 5350 3600
+AR Path="/592C9A06" Ref="U3"  Part="1" 
+AR Path="/590D88AD/592C9A06" Ref="U3"  Part="1" 
+F 0 "U3" H 5350 3600 60  0000 C CNN
+F 1 "bq76PL536A_HTQFP" H 5350 3850 60  0000 C CNN
+F 2 "rLoop_Footprints:bq76pl536a" H 5350 3600 60  0001 C CNN
+F 3 "" H 5350 3600 60  0001 C CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 592E9933
+P 6600 550
+F 0 "R13" V 6680 550 50  0000 C CNN
+F 1 "1K0 / 0.063W / 1% / SMD 0603" V 6750 550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6530 550 50  0001 C CNN
+F 3 "" H 6600 550 50  0001 C CNN
+	1    6600 550 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 592E99E5
+P 6600 800
+F 0 "R14" V 6680 800 50  0000 C CNN
+F 1 "1K0 / 0.063W / 1% / SMD 0603" V 6750 800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6530 800 50  0001 C CNN
+F 3 "" H 6600 800 50  0001 C CNN
+	1    6600 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 592E9A55
+P 6600 1150
+F 0 "R15" V 6680 1150 50  0000 C CNN
+F 1 "1K0 / 0.063W / 1% / SMD 0603" V 6750 1150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6530 1150 50  0001 C CNN
+F 3 "" H 6600 1150 50  0001 C CNN
+	1    6600 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R16
+U 1 1 592E9A8B
+P 6600 1700
+F 0 "R16" V 6680 1700 50  0000 C CNN
+F 1 "1K0 / 0.063W / 1% / SMD 0603" V 6750 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6530 1700 50  0001 C CNN
+F 3 "" H 6600 1700 50  0001 C CNN
+	1    6600 1700
+	0    1    1    0   
+$EndComp
+Text HLabel 7650 1700 2    60   Output ~ 0
+CONV_N
+Text HLabel 7650 1400 2    60   Input ~ 0
+FAULT_N
+Text HLabel 7650 1500 2    60   Input ~ 0
+ALERT_N
+Text HLabel 9150 1600 2    60   Input ~ 0
+DRDY_N
+$Comp
+L C C52
+U 1 1 592D228C
+P 7700 2350
+F 0 "C52" H 7725 2450 50  0000 L CNN
+F 1 ".1uF / 50V/ 10% / SMD 0603" H 7900 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7738 2200 50  0001 C CNN
+F 3 "" H 7700 2350 50  0001 C CNN
+	1    7700 2350
+	1    0    0    1   
+$EndComp
+Text GLabel 7800 2100 2    60   Input ~ 0
+GND_1
+$Comp
+L C C51
+U 1 1 592D25E7
+P 3500 3500
+F 0 "C51" H 3525 3600 50  0000 L CNN
+F 1 "2.2uF / 50V/ 10% / SMD 0603" H 2100 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3538 3350 50  0001 C CNN
+F 3 "" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    1   
+$EndComp
+Text GLabel 3400 3750 0    60   Input ~ 0
+GND_1
+$Comp
+L C C50
+U 1 1 592D2A17
+P 2400 2300
+F 0 "C50" H 2425 2400 50  0000 L CNN
+F 1 ".1 uF / 50V/ 10% / SMD 0603" H 2450 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2438 2150 50  0001 C CNN
+F 3 "" H 2400 2300 50  0001 C CNN
+	1    2400 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C48
+U 1 1 592D2ABB
+P 2100 2300
+F 0 "C48" H 2125 2400 50  0000 L CNN
+F 1 "2.2uF / 50V/ 10% / SMD 0603" H 700 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2138 2150 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	1    0    0    1   
+$EndComp
+Text GLabel 2150 3300 0    60   Input ~ 0
+GND_1
+Text GLabel 2000 2050 0    60   Input ~ 0
+GND_1
+$Comp
+L C C49
+U 1 1 592D3B06
+P 2750 3050
+F 0 "C49" H 2800 3250 50  0000 L CNN
+F 1 ".1 uF / 50V/ 10% / SMD 0603" H 2800 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2788 2900 50  0001 C CNN
+F 3 "" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L C C47
+U 1 1 592D2B93
+P 2500 3050
+F 0 "C47" H 2525 3150 50  0000 L CNN
+F 1 "2.2uF / 50V/ 10% / SMD 0603" H 1150 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2538 2900 50  0001 C CNN
+F 3 "" H 2500 3050 50  0001 C CNN
+	1    2500 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L C C63
+U 1 1 592E9B54
+P 3550 1600
+F 0 "C63" H 3575 1700 50  0000 L CNN
+F 1 ".047 uF / 50V/ 10% / SMD 0603" H 3600 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3588 1450 50  0001 C CNN
+F 3 "" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L R R123
+U 1 1 592E9D33
+P 3800 2200
+F 0 "R123" V 3700 2200 50  0000 C CNN
+F 1 "1.82k / 0.063W / 1% / SMD0603" V 3550 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3730 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R122
+U 1 1 592E9EB3
+P 3300 2200
+F 0 "R122" V 3380 2200 50  0000 C CNN
+F 1 "1.47k / 0.063W / 1% / SMD0603" V 3450 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3230 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Thermistor_NTC TH6
+U 1 1 592E9FE1
+P 3050 1600
+F 0 "TH6" H 2800 1650 50  0000 C CNN
+F 1 "10k / 1% / 3454K / SMD0603" H 2250 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3050 1650 50  0001 C CNN
+F 3 "" H 3050 1650 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 1300 0    60   Input ~ 0
+5V_1
+$Comp
+L C C62
+U 1 1 592EAB7E
+P 2450 4700
+F 0 "C62" H 2475 4800 50  0000 L CNN
+F 1 ".047 uF / 50V/ 10% / SMD 0603" H 2650 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2488 4550 50  0001 C CNN
+F 3 "" H 2450 4700 50  0001 C CNN
+	1    2450 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L R R120
+U 1 1 592EABDC
+P 2200 4400
+F 0 "R120" V 2100 4400 50  0000 C CNN
+F 1 "1.47k / 0.063W / 1% / SMD0603" V 2000 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2130 4400 50  0001 C CNN
+F 3 "" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R121
+U 1 1 592EAC3F
+P 2800 4400
+F 0 "R121" V 2850 4600 50  0000 C CNN
+F 1 "1.82k / 0.063W / 1% / SMD0603" V 2950 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2730 4400 50  0001 C CNN
+F 3 "" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Thermistor_NTC TH5
+U 1 1 592EACA5
+P 1950 4750
+F 0 "TH5" H 1700 4800 50  0000 C CNN
+F 1 "10k / 1% / 3454K / SMD0603" H 1200 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1950 4800 50  0001 C CNN
+F 3 "" H 1950 4800 50  0001 C CNN
+	1    1950 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5150 0    60   Input ~ 0
+5V_1
+$Comp
+L C C76
+U 1 1 59460A1B
+P 8600 1250
+F 0 "C76" H 8625 1350 50  0000 L CNN
+F 1 "33 pF / 50V/ 10% / SMD 0603" H 8750 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8638 1100 50  0001 C CNN
+F 3 "" H 8600 1250 50  0001 C CNN
+	1    8600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C77
+U 1 1 59460AB4
+P 8600 1850
+F 0 "C77" H 8625 1950 50  0000 L CNN
+F 1 "33 pF / 50V/ 10% / SMD 0603" H 8750 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8638 1700 50  0001 C CNN
+F 3 "" H 8600 1850 50  0001 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 2100 2    60   Input ~ 0
+VDDHV_1
+Wire Wire Line
+	12500 2650 12500 2950
+Wire Wire Line
+	12500 2950 12250 2950
+Wire Wire Line
+	12250 3200 13000 3200
+Wire Wire Line
+	13000 3200 13000 2650
+Wire Wire Line
+	4650 6850 5000 6850
+Wire Wire Line
+	4650 7100 5000 7100
+Wire Wire Line
+	6450 2750 9650 2750
+Wire Wire Line
+	6450 2950 9650 2950
+Wire Wire Line
+	6450 3150 9650 3150
+Wire Wire Line
+	6450 3350 9650 3350
+Wire Wire Line
+	6450 2550 7850 2550
+Wire Wire Line
+	6450 2650 6550 2650
+Wire Wire Line
+	6550 2650 6550 2550
+Connection ~ 6550 2550
+Wire Wire Line
+	6450 3550 9650 3550
+Wire Wire Line
+	6450 3750 9650 3750
+Wire Wire Line
+	9600 4600 9600 4400
+Wire Wire Line
+	9150 4400 9150 4600
+Wire Wire Line
+	8700 4600 8700 4450
+Wire Wire Line
+	8250 4450 8250 4600
+Wire Wire Line
+	7750 4600 7750 4450
+Wire Wire Line
+	7300 4600 7300 4450
+Wire Wire Line
+	9600 4100 9600 2750
+Connection ~ 9600 2750
+Wire Wire Line
+	9150 4100 9150 2950
+Connection ~ 9150 2950
+Wire Wire Line
+	8700 4150 8700 3150
+Connection ~ 8700 3150
+Wire Wire Line
+	8250 4150 8250 3350
+Connection ~ 8250 3350
+Wire Wire Line
+	7750 4150 7750 3550
+Connection ~ 7750 3550
+Wire Wire Line
+	7300 4150 7300 3750
+Connection ~ 7300 3750
+Wire Wire Line
+	6900 4100 6900 4850
+Wire Wire Line
+	6450 4200 6900 4200
+Wire Wire Line
+	6450 4300 6550 4300
+Wire Wire Line
+	6550 4300 6550 4200
+Connection ~ 6550 4200
+Wire Wire Line
+	4100 3700 4200 3700
+Wire Wire Line
+	4100 3400 4100 3700
+Wire Wire Line
+	4050 3500 4200 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	4200 3600 4100 3600
+Connection ~ 4100 3600
+Wire Wire Line
+	4000 2950 4200 2950
+Wire Wire Line
+	4200 3050 4100 3050
+Wire Wire Line
+	4100 3050 4100 2950
+Connection ~ 4100 2950
+Wire Wire Line
+	3400 3300 4200 3300
+Wire Wire Line
+	4050 4150 4200 4150
+Wire Wire Line
+	5500 5200 6300 5200
+Wire Wire Line
+	6200 5200 6200 5050
+Wire Wire Line
+	6100 5050 6100 5200
+Connection ~ 6200 5200
+Wire Wire Line
+	6000 5050 6000 5200
+Connection ~ 6100 5200
+Wire Wire Line
+	5900 5050 5900 5200
+Connection ~ 6000 5200
+Wire Wire Line
+	5800 5050 5800 5200
+Connection ~ 5900 5200
+Wire Wire Line
+	5700 5050 5700 5200
+Connection ~ 5800 5200
+Wire Wire Line
+	5600 5050 5600 5200
+Connection ~ 5700 5200
+Wire Wire Line
+	5500 5050 5500 5200
+Connection ~ 5600 5200
+Wire Wire Line
+	6450 2300 6850 2300
+Wire Wire Line
+	6450 2400 6550 2400
+Wire Wire Line
+	6550 2400 6550 2300
+Connection ~ 6550 2300
+Wire Wire Line
+	4100 5300 4100 5050
+Wire Wire Line
+	4100 4750 4100 4550
+Wire Wire Line
+	4100 4550 4200 4550
+Wire Wire Line
+	6450 4400 6600 4400
+Wire Wire Line
+	6600 4700 6900 4700
+Connection ~ 6900 4700
+Wire Wire Line
+	4500 5050 4500 5700
+Wire Wire Line
+	4600 5700 4600 5050
+Wire Wire Line
+	4700 5050 4700 5700
+Wire Wire Line
+	4800 5700 4800 5050
+Wire Wire Line
+	4900 5050 4900 5700
+Wire Wire Line
+	5000 1950 5000 550 
+Wire Wire Line
+	5000 550  6450 550 
+Wire Wire Line
+	6450 800  5100 800 
+Wire Wire Line
+	5100 800  5100 1950
+Wire Wire Line
+	5200 1950 5200 1050
+Wire Wire Line
+	6450 1150 5300 1150
+Wire Wire Line
+	5300 1150 5300 1950
+Wire Wire Line
+	5400 1400 5400 1950
+Wire Wire Line
+	5400 1400 7650 1400
+Wire Wire Line
+	5500 1950 5500 1500
+Wire Wire Line
+	5500 1500 7650 1500
+Wire Wire Line
+	5600 1950 5600 1600
+Wire Wire Line
+	5600 1600 9150 1600
+Wire Wire Line
+	5700 1950 5700 1700
+Wire Wire Line
+	5700 1700 6450 1700
+Wire Wire Line
+	6750 550  7650 550 
+Wire Wire Line
+	7650 800  6750 800 
+Wire Wire Line
+	6750 1150 7650 1150
+Wire Wire Line
+	6750 1700 7650 1700
+Wire Wire Line
+	7700 2500 7700 2550
+Connection ~ 7700 2550
+Wire Wire Line
+	7800 2100 7700 2100
+Wire Wire Line
+	7700 2100 7700 2200
+Wire Wire Line
+	3500 3350 3500 3300
+Connection ~ 3500 3300
+Wire Wire Line
+	3400 3750 3500 3750
+Wire Wire Line
+	3500 3750 3500 3650
+Wire Wire Line
+	2000 2050 2400 2050
+Wire Wire Line
+	2100 2050 2100 2150
+Wire Wire Line
+	2100 2450 2100 2550
+Wire Wire Line
+	2100 2550 4200 2550
+Wire Wire Line
+	2400 2450 2400 2550
+Connection ~ 2400 2550
+Wire Wire Line
+	2400 2050 2400 2150
+Connection ~ 2100 2050
+Connection ~ 2750 2850
+Wire Wire Line
+	2500 2900 2500 2850
+Wire Wire Line
+	2500 2850 4200 2850
+Wire Wire Line
+	2750 2850 2750 2900
+Wire Wire Line
+	4200 2650 4150 2650
+Wire Wire Line
+	4150 2650 4150 2550
+Connection ~ 4150 2550
+Wire Wire Line
+	2150 3300 2750 3300
+Wire Wire Line
+	2500 3300 2500 3200
+Wire Wire Line
+	2750 3300 2750 3200
+Connection ~ 2500 3300
+Wire Wire Line
+	4200 2200 3950 2200
+Wire Wire Line
+	3550 2300 4200 2300
+Wire Wire Line
+	3550 1750 3550 2300
+Wire Wire Line
+	3450 2200 3650 2200
+Connection ~ 3550 2200
+Wire Wire Line
+	3150 2200 3050 2200
+Wire Wire Line
+	3050 2200 3050 1750
+Wire Wire Line
+	2550 1300 3550 1300
+Wire Wire Line
+	3050 1300 3050 1450
+Wire Wire Line
+	3550 1300 3550 1450
+Connection ~ 3050 1300
+Wire Wire Line
+	4200 4400 2950 4400
+Wire Wire Line
+	1950 4600 1950 4400
+Wire Wire Line
+	1950 4400 2050 4400
+Wire Wire Line
+	1650 5150 2450 5150
+Wire Wire Line
+	1950 5150 1950 4900
+Wire Wire Line
+	2450 5150 2450 4850
+Connection ~ 1950 5150
+Wire Wire Line
+	2350 4400 2650 4400
+Wire Wire Line
+	2450 4300 2450 4550
+Connection ~ 2450 4400
+Wire Wire Line
+	4200 4300 2450 4300
+Wire Wire Line
+	8600 2000 8600 2100
+Wire Wire Line
+	8600 2100 8750 2100
+Wire Wire Line
+	8600 1700 8600 1600
+Connection ~ 8600 1600
+Wire Wire Line
+	5200 1050 9150 1050
+Wire Wire Line
+	8600 1100 8600 1050
+Connection ~ 8600 1050
+Text GLabel 8750 1450 2    60   Input ~ 0
+VDDHV_1
+Wire Wire Line
+	8750 1450 8600 1450
+Wire Wire Line
+	8600 1450 8600 1400
+Text HLabel 5000 5700 3    60   Output ~ 0
+FAULT_H
+Text HLabel 5100 5700 3    60   Output ~ 0
+ALERT_H
+Text HLabel 5200 5700 3    60   Output ~ 0
+DRDY_H
+Text HLabel 5300 5700 3    60   Input ~ 0
+CONV_H
+Wire Wire Line
+	5300 5700 5300 5050
+Wire Wire Line
+	5200 5050 5200 5700
+Wire Wire Line
+	5100 5700 5100 5050
+Wire Wire Line
+	5000 5050 5000 5700
+Wire Wire Line
+	4200 3400 4100 3400
+Wire Wire Line
+	6450 4100 6900 4100
+Connection ~ 6900 4200
+Wire Wire Line
+	9650 3950 6450 3950
+Wire Wire Line
+	6450 3850 9650 3850
+Wire Wire Line
+	9650 3650 6450 3650
+Wire Wire Line
+	9650 3450 6450 3450
+Wire Wire Line
+	9650 3250 6450 3250
+Wire Wire Line
+	9650 3050 6450 3050
+Wire Wire Line
+	9650 2850 6450 2850
+$EndSCHEMATC
