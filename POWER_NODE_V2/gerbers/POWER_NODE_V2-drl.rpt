@@ -1,0 +1,31 @@
+Drill report for C:/Users/davidcorrigan/Desktop/GitHub/elec-pcb/POWER_NODE_V2/POWER_NODE_V2.kicad_pcb
+Created on 7/17/2017 5:32:20 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'POWER_NODE_V2.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.33mm  0.013"  (84 holes)
+    T2  0.80mm  0.031"  (24 holes)
+    T3  1.00mm  0.039"  (57 holes)
+    T4  1.30mm  0.051"  (22 holes)
+    T5  1.65mm  0.065"  (8 holes)
+    T6  1.78mm  0.070"  (14 holes)
+    T7  2.00mm  0.079"  (7 holes)
+    T8  2.39mm  0.094"  (4 holes)
+    T9  3.00mm  0.118"  (4 holes)
+    T10  3.50mm  0.138"  (11 holes)
+
+    Total plated holes count 235
+
+
+Drill file 'POWER_NODE_V2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
