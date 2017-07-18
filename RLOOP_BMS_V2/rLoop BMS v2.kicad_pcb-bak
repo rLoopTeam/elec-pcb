@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
-    (links 0)
+    (links 703)
     (no_connects 0)
     (area 37.617857 32.924999 137.575001 186.075001)
     (thickness 1.6)
     (drawings 49)
     (tracks 2278)
     (zones 0)
-    (modules 432)
+    (modules 442)
     (nets 226)
   )
 
@@ -562,8 +562,114 @@
     (add_net "Net-(D9-Pad1)")
   )
 
+  (module rLoop_Footprints:Fiducial_1mm (layer B.Cu) (tedit 5965A76C) (tstamp 596AEF97)
+    (at 121.5 37 270)
+    (fp_text reference REF** (at 0 -1.8 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Fiducial_1mm (at 0 1.7 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 0 smd circle (at 0 0 270) (size 1 1) (layers B.Cu B.Paste B.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer F.Cu) (tedit 5965A76C) (tstamp 596AEF8D)
+    (at 121.5 37 90)
+    (fp_text reference REF** (at 0 1.8 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Fiducial_1mm (at 0 -1.7 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 0 smd circle (at 0 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer B.Cu) (tedit 5965A76C) (tstamp 596AEF82)
+    (at 54.5 37 270)
+    (fp_text reference REF** (at 0 -1.8 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Fiducial_1mm (at 0 1.7 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 0 smd circle (at 0 0 270) (size 1 1) (layers B.Cu B.Paste B.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer F.Cu) (tedit 5965A76C) (tstamp 596AEF78)
+    (at 54.5 37 90)
+    (fp_text reference REF** (at 0 1.8 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Fiducial_1mm (at 0 -1.7 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 0 smd circle (at 0 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer B.Cu) (tedit 5965A76C) (tstamp 596AEF6B)
+    (at 54.5 182 270)
+    (fp_text reference REF** (at 0 -1.8 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Fiducial_1mm (at 0 1.7 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 0 smd circle (at 0 0 270) (size 1 1) (layers B.Cu B.Paste B.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer F.Cu) (tedit 5965A76C) (tstamp 596AEF5E)
+    (at 54.5 182 90)
+    (fp_text reference REF** (at 0 1.8 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Fiducial_1mm (at 0 -1.7 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 0 smd circle (at 0 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer B.Cu) (tedit 5965A76C) (tstamp 596AEF50)
+    (at 121.5 182 270)
+    (fp_text reference REF** (at 0 -1.8 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Fiducial_1mm (at 0 1.7 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 0 smd circle (at 0 0 270) (size 1 1) (layers B.Cu B.Paste B.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
+  )
+
+  (module rLoop_Footprints:tooling_3mm (layer F.Cu) (tedit 5965A349) (tstamp 596AECBE)
+    (at 133.5 182)
+    (fp_text reference REF** (at 0 2.6) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value tooling_3mm (at 0 -2.9) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module rLoop_Footprints:tooling_3mm (layer F.Cu) (tedit 5965A349) (tstamp 596AECAD)
+    (at 42.5 182)
+    (fp_text reference REF** (at 0 2.6) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value tooling_3mm (at 0 -2.9) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
   (module rLoop_Footprints:tooling_3mm (layer F.Cu) (tedit 5965A349) (tstamp 596AEC98)
-    (at 41.75 36.75)
+    (at 42.5 37)
     (fp_text reference REF** (at 0 2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -13643,6 +13749,18 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module rLoop_Footprints:Fiducial_1mm (layer F.Cu) (tedit 5965A76C) (tstamp 596AEF40)
+    (at 121.5 182 90)
+    (fp_text reference REF** (at 0 1.8 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Fiducial_1mm (at 0 -1.7 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 0 smd circle (at 0 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+      (solder_mask_margin 3) (solder_paste_margin 3))
   )
 
   (gr_line (start 38.5 186) (end 38.5 33) (layer Edge.Cuts) (width 0.15))
