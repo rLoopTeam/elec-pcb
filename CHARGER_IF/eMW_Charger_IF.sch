@@ -63,6 +63,8 @@ F 0 "U?" H 7200 3400 60  0000 C CNN
 F 1 "SN74ACT08N" H 6600 3400 60  0000 C CNN
 F 2 "" H 7000 2700 60  0000 C CNN
 F 3 "" H 7000 2700 60  0000 C CNN
+F 4 "595-SN74ACT08N" H 7000 2700 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN74ACT08N" H 7000 2700 60  0001 C CNN "Mouser URL"
 	1    7000 2700
 	-1   0    0    -1  
 $EndComp
@@ -74,6 +76,8 @@ F 0 "U?" H 7200 5550 60  0000 C CNN
 F 1 "SN74ACT08N" H 6600 5550 60  0000 C CNN
 F 2 "" H 7000 4850 60  0000 C CNN
 F 3 "" H 7000 4850 60  0000 C CNN
+F 4 "595-SN74ACT08N" H 7000 4850 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN74ACT08N" H 7000 4850 60  0001 C CNN "Mouser URL"
 	1    7000 4850
 	-1   0    0    -1  
 $EndComp
@@ -129,6 +133,8 @@ F 0 "U?" H 2700 4750 60  0000 C CNN
 F 1 "V7805-2000R" H 2950 4850 60  0000 C CNN
 F 2 "" H 2950 4450 60  0000 C CNN
 F 3 "" H 2950 4450 60  0000 C CNN
+F 4 "490-V7805-2000R" H 2950 4450 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyV7805-2000R" H 2950 4450 60  0001 C CNN "Mouser URL"
 	1    2950 4450
 	1    0    0    -1  
 $EndComp
@@ -524,6 +530,8 @@ F 0 "C?" H 2550 5450 50  0000 L CNN
 F 1 "10 uF / 25V / TH" H 2000 5250 50  0000 L CNN
 F 2 "" H 2838 5200 50  0000 C CNN
 F 3 "" H 2800 5350 50  0000 C CNN
+F 4 "810-FG26X7R1E106KRT6" H 2800 5350 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyFG26X7R1E106KRT06" H 2800 5350 60  0001 C CNN "Mouser URL"
 	1    2800 5350
 	1    0    0    -1  
 $EndComp
@@ -535,6 +543,8 @@ F 0 "C?" H 3125 5450 50  0000 L CNN
 F 1 "22 uF / 16V / TH" H 3125 5250 50  0000 L CNN
 F 2 "" H 3138 5200 50  0000 C CNN
 F 3 "" H 3100 5350 50  0000 C CNN
+F 4 "810-FG22X7R1E226MRT6" H 3100 5350 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyFG22X7R1E226MRT06" H 3100 5350 60  0001 C CNN "Mouser URL"
 	1    3100 5350
 	1    0    0    -1  
 $EndComp
@@ -557,4 +567,45 @@ Connection ~ 7950 5200
 Wire Wire Line
 	7600 5050 7950 5050
 Connection ~ 7950 5050
+$Comp
+L CONN_01X02 J?
+U 1 1 59765191
+P 1400 3950
+F 0 "J?" H 1400 4100 50  0000 C CNN
+F 1 "CONN_01X02" V 1500 3950 50  0000 C CNN
+F 2 "" H 1400 3950 50  0001 C CNN
+F 3 "" H 1400 3950 50  0001 C CNN
+	1    1400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 597651CE
+P 1750 4050
+F 0 "#PWR?" H 1750 3800 50  0001 C CNN
+F 1 "GND" H 1750 3900 50  0000 C CNN
+F 2 "" H 1750 4050 50  0001 C CNN
+F 3 "" H 1750 4050 50  0001 C CNN
+	1    1750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 597651FC
+P 2000 4050
+F 0 "#PWR?" H 2000 3900 50  0001 C CNN
+F 1 "+5V" H 2000 4190 50  0000 C CNN
+F 2 "" H 2000 4050 50  0001 C CNN
+F 3 "" H 2000 4050 50  0001 C CNN
+	1    2000 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 4050 1750 4000
+Wire Wire Line
+	1750 4000 1600 4000
+Wire Wire Line
+	1600 3900 2000 3900
+Wire Wire Line
+	2000 3900 2000 4050
 $EndSCHEMATC
