@@ -47,15 +47,15 @@ $EndDescr
 $Comp
 L SN74LS08N U3
 U 1 1 59742C3C
-P 6850 2450
-F 0 "U3" H 7050 3150 60  0000 C CNN
-F 1 "SN74ACT08N" H 6450 3150 60  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 6850 2450 60  0001 C CNN
-F 3 "" H 6850 2450 60  0000 C CNN
-F 4 "595-SN74ACT08N" H 6850 2450 60  0001 C CNN "Mouser PN"
-F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN74ACT08N" H 6850 2450 60  0001 C CNN "Mouser URL"
-	1    6850 2450
-	-1   0    0    -1  
+P 6850 2500
+F 0 "U3" H 7050 3200 60  0000 C CNN
+F 1 "SN74ACT08N" H 6450 3200 60  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 6850 2500 60  0001 C CNN
+F 3 "" H 6850 2500 60  0000 C CNN
+F 4 "595-SN74ACT08N" H 6850 2500 60  0001 C CNN "Mouser PN"
+F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN74ACT08N" H 6850 2500 60  0001 C CNN "Mouser URL"
+	1    6850 2500
+	-1   0    0    1   
 $EndComp
 $Comp
 L SN74LS08N U4
@@ -450,9 +450,13 @@ Wire Wire Line
 Wire Wire Line
 	3625 6275 3825 6275
 Wire Wire Line
-	3825 6125 3825 6475
+	3825 6125 3825 6275
 Wire Wire Line
-	3975 6125 3975 7025
+	3825 6275 3825 6475
+Wire Wire Line
+	3975 6125 3975 6875
+Wire Wire Line
+	3975 6875 3975 7025
 Wire Wire Line
 	6500 1600 6850 1600
 Wire Wire Line
@@ -460,7 +464,17 @@ Wire Wire Line
 Wire Wire Line
 	6850 5500 6350 5500
 Wire Wire Line
-	7750 4100 7750 5050
+	7750 4100 7750 4200
+Wire Wire Line
+	7750 4200 7750 4450
+Wire Wire Line
+	7750 4450 7750 4700
+Wire Wire Line
+	7750 4700 7750 4800
+Wire Wire Line
+	7750 4800 7750 4950
+Wire Wire Line
+	7750 4950 7750 5050
 Wire Wire Line
 	7750 4200 7450 4200
 Wire Wire Line
@@ -475,7 +489,13 @@ Connection ~ 7750 4700
 Wire Wire Line
 	7450 2050 7750 2050
 Wire Wire Line
-	7750 1850 7750 2800
+	7750 1850 7750 2050
+Wire Wire Line
+	7750 2050 7750 2300
+Wire Wire Line
+	7750 2300 7750 2550
+Wire Wire Line
+	7750 2550 7750 2800
 Wire Wire Line
 	7750 2300 7450 2300
 Connection ~ 7750 2050
@@ -486,9 +506,13 @@ Wire Wire Line
 	7750 2800 7450 2800
 Connection ~ 7750 2550
 Wire Wire Line
-	8150 1700 8150 1900
+	8150 1700 8150 1750
 Wire Wire Line
-	9100 1600 9100 1900
+	8150 1750 8150 1900
+Wire Wire Line
+	9100 1600 9100 1800
+Wire Wire Line
+	9100 1800 9100 1900
 Wire Wire Line
 	8150 2250 8150 2200
 Wire Wire Line
@@ -562,13 +586,17 @@ Wire Wire Line
 Wire Wire Line
 	2550 1950 2400 1950
 Wire Wire Line
-	4125 6125 4125 6475
+	4125 6125 4125 6275
+Wire Wire Line
+	4125 6275 4125 6475
 Wire Wire Line
 	4125 6275 4375 6275
 Wire Wire Line
 	4125 6875 4125 6775
 Wire Wire Line
-	3825 6875 4125 6875
+	3825 6875 3975 6875
+Wire Wire Line
+	3975 6875 4125 6875
 Connection ~ 3975 6875
 Wire Wire Line
 	3825 6775 3825 6875
@@ -725,7 +753,9 @@ Wire Wire Line
 Wire Wire Line
 	2375 3875 2100 3875
 Wire Wire Line
-	2100 3875 2100 3925
+	2100 3875 2100 3900
+Wire Wire Line
+	2100 3900 2100 3925
 Wire Wire Line
 	4150 1350 4000 1350
 Wire Wire Line
