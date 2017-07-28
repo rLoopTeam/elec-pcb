@@ -298,7 +298,7 @@ U 1 1 59759984
 P 3825 6625
 F 0 "C1" H 3575 6725 50  0000 L CNN
 F 1 "10 uF / 25V / TH" H 3025 6525 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3863 6475 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 3863 6475 50  0001 C CNN
 F 3 "" H 3825 6625 50  0000 C CNN
 F 4 "810-FG26X7R1E106KRT6" H 3825 6625 60  0001 C CNN "Mouser PN"
 F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyFG26X7R1E106KRT06" H 3825 6625 60  0001 C CNN "Mouser URL"
@@ -311,7 +311,7 @@ U 1 1 597599F0
 P 4125 6625
 F 0 "C2" H 4150 6725 50  0000 L CNN
 F 1 "22 uF / 16V / TH" H 4150 6525 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 4163 6475 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 4163 6475 50  0001 C CNN
 F 3 "" H 4125 6625 50  0000 C CNN
 F 4 "810-FG22X7R1E226MRT6" H 4125 6625 60  0001 C CNN "Mouser PN"
 F 5 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyFG22X7R1E226MRT06" H 4125 6625 60  0001 C CNN "Mouser URL"
