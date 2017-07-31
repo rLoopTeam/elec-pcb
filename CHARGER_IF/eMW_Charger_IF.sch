@@ -871,4 +871,6 @@ Wire Wire Line
 	8000 2150 8000 2600
 Wire Wire Line
 	8000 2600 10100 2600
+Text Notes 7225 6925 0    157  ~ 0
+rLoop Charger IF Board
 $EndSCHEMATC
