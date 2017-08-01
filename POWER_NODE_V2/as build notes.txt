@@ -1,1 +1,2 @@
 U15, U16 Pad #4 not exposed in solder mask
+U7 missing ground connection
