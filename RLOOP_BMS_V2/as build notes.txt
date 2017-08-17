@@ -1,3 +1,4 @@
 C65 - need bigger footprint for 100V Cap
 TH3: R116 should be 1.47k, R117 is correct
 TH4: R118 should be 1.47k, R119 is correct
+D50 backwards
