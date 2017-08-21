@@ -2,3 +2,4 @@ U15, U16 Pad #4 not exposed in solder mask
 U7 missing ground connection
 Input to AMC1100 wrong - check pins 2/3 on schematics
 Silkscreen on current sensors and gas solenoid wrong
+Pull-up on NCS BMS side of isolator
