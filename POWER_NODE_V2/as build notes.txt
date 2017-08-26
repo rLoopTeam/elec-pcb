@@ -6,3 +6,4 @@ Pull-up on NCS BMS side of isolator
 I2C SCL & SDA lines swapped on header (on I2C page of schematics)
 3V3 Reg too small
 1-Wire mosfet wrong way around, S&D swapped
+Pin 1 marker on pressure node (and others?)
